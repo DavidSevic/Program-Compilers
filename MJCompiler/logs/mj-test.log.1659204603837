@@ -1,0 +1,224 @@
+INFO  20:09:46,569 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\testic.mj
+INFO  20:09:46,701 - #2 program
+INFO  20:09:46,702 - #23 test302
+INFO  20:09:46,702 - #7 const
+INFO  20:09:46,705 - #23 int
+INFO  20:09:46,705 - #23 jedan
+INFO  20:09:46,707 - #37 =
+INFO  20:09:46,707 - #51 1
+INFO  20:09:46,707 - #40 ;
+INFO  20:09:46,709 - #23 int
+INFO  20:09:46,711 - #23 i
+INFO  20:09:46,711 - #40 ;
+INFO  20:09:46,716 - #23 bool
+INFO  20:09:46,718 - #23 ibool
+INFO  20:09:46,718 - #40 ;
+INFO  20:09:46,718 - #23 int
+INFO  20:09:46,718 - #23 niz2
+INFO  20:09:46,719 - #40 ;
+INFO  20:09:46,719 - #23 int
+INFO  20:09:46,719 - #23 niz
+INFO  20:09:46,719 - #46 [
+INFO  20:09:46,719 - #47 ]
+INFO  20:09:46,720 - #40 ;
+INFO  20:09:46,721 - #23 int
+INFO  20:09:46,721 - #23 a
+INFO  20:09:46,721 - #40 ;
+INFO  20:09:46,721 - #48 {
+INFO  20:09:46,722 - #23 int
+INFO  20:09:46,723 - #23 f
+INFO  20:09:46,724 - #44 (
+INFO  20:09:46,725 - #45 )
+INFO  20:09:46,727 - #48 {
+INFO  20:09:46,728 - #14 return
+INFO  20:09:46,729 - #23 chr
+INFO  20:09:46,733 - #44 (
+INFO  20:09:46,737 - #52 'a'
+INFO  20:09:46,739 - #45 )
+INFO  20:09:46,748 - #40 ;
+INFO  20:09:46,750 - #49 }
+INFO  20:09:46,752 - #15 void
+INFO  20:09:46,752 - #23 main
+INFO  20:09:46,753 - #44 (
+INFO  20:09:46,754 - #45 )
+INFO  20:09:46,754 - #48 {
+INFO  20:09:46,755 - #49 }
+INFO  20:09:46,755 - #49 }
+INFO  20:09:46,784 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList2(
+        DeclList2(
+          DeclList2(
+            DeclList1(
+              DeclList5(
+              ) [DeclList5]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+               jedan
+                ConstOption1(
+                 1
+                ) [ConstOption1]
+                ConstDeclList2(
+                ) [ConstDeclList2]
+              ) [ConstDecl]
+            ) [DeclList1]
+            GlobVarDecl(
+              Type(
+               int
+              ) [Type]
+             i
+              SqrdOptionVar2(
+              ) [SqrdOptionVar2]
+              GlobVarDeclList2(
+              ) [GlobVarDeclList2]
+            ) [GlobVarDecl]
+          ) [DeclList2]
+          GlobVarDecl(
+            Type(
+             bool
+            ) [Type]
+           ibool
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            GlobVarDeclList2(
+            ) [GlobVarDeclList2]
+          ) [GlobVarDecl]
+        ) [DeclList2]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+         niz2
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDecl]
+      ) [DeclList2]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       niz
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     a
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl1(
+        TypeIdentMeth(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [TypeIdentMeth]
+        FormParsOption2(
+        ) [FormParsOption2]
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement7(
+              RETURNhelp(
+              ) [RETURNhelp]
+              Expr(
+                MinusOption2(
+                ) [MinusOption2]
+                Term(
+                  Factor2(
+                    Designator(
+                      DesignatorIdent(
+                       chr
+                      ) [DesignatorIdent]
+                      DesignatorList3(
+                      ) [DesignatorList3]
+                    ) [Designator]
+                    LPARENpars(
+                    ) [LPARENpars]
+                    ActParsOption1(
+                      ActPars(
+                        Expr(
+                          MinusOption2(
+                          ) [MinusOption2]
+                          Term(
+                            Factor4(
+                             'a'
+                            ) [Factor4]
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                          ) [Term]
+                          AddopTermList2(
+                          ) [AddopTermList2]
+                        ) [Expr]
+                        ExprList2(
+                        ) [ExprList2]
+                      ) [ActPars]
+                    ) [ActParsOption1]
+                    RPARENpars(
+                    ) [RPARENpars]
+                  ) [Factor2]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+                AddopTermList2(
+                ) [AddopTermList2]
+              ) [Expr]
+              SEMIhelp(
+              ) [SEMIhelp]
+            ) [SingleStatement7]
+          ) [Statement2]
+        ) [StatementList1]
+      ) [MethodDecl1]
+    ) [MethodDeclList1]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  20:09:46,787 - ===================================
+INFO  20:09:46,801 - Deklarisana konstanta jedan na liniji 5
+INFO  20:09:46,802 - Deklarisana globalna promenljiva i na liniji 7
+INFO  20:09:46,802 - Deklarisana globalna promenljiva ibool na liniji 8
+INFO  20:09:46,802 - Deklarisana globalna promenljiva niz2 na liniji 10
+INFO  20:09:46,802 - Deklarisan globalni niz niz na liniji 12
+INFO  20:09:46,803 - Deklarisana globalna promenljiva a na liniji 13
+INFO  20:09:46,804 - Poziv funckije: chr na liniji 19
+INFO  20:09:46,805 - NEMA
+INFO  20:09:46,805 -  Print count calls = 0
+INFO  20:09:46,805 -  Deklarisanih konstanti ima = 1
+INFO  20:09:46,806 -  Deklarisanih globalnih promenljivih ima = 4
+INFO  20:09:46,806 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  20:09:46,806 - ===================================
+INFO  20:09:46,809 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,206 @@
+INFO  13:29:54,390 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  13:29:54,498 - #2 program
+INFO  13:29:54,499 - #23 p
+INFO  13:29:54,499 - #23 int
+INFO  13:29:54,503 - #23 x
+INFO  13:29:54,505 - #42 ,
+INFO  13:29:54,507 - #23 y
+INFO  13:29:54,507 - #46 [
+INFO  13:29:54,507 - #47 ]
+INFO  13:29:54,507 - #42 ,
+INFO  13:29:54,509 - #23 z
+INFO  13:29:54,509 - #42 ,
+INFO  13:29:54,509 - #23 q
+INFO  13:29:54,509 - #42 ,
+INFO  13:29:54,509 - #23 o
+INFO  13:29:54,510 - #46 [
+INFO  13:29:54,510 - #47 ]
+INFO  13:29:54,510 - #42 ,
+INFO  13:29:54,510 - #23 f
+INFO  13:29:54,510 - #46 [
+INFO  13:29:54,510 - #47 ]
+INFO  13:29:54,510 - #42 ,
+INFO  13:29:54,511 - #23 g
+INFO  13:29:54,511 - #42 ,
+INFO  13:29:54,511 - #23 k
+INFO  13:29:54,511 - #42 ,
+INFO  13:29:54,512 - #23 c
+INFO  13:29:54,512 - #40 ;
+INFO  13:29:54,514 - #48 {
+INFO  13:29:54,517 - #15 void
+INFO  13:29:54,518 - #23 fun
+INFO  13:29:54,520 - #44 (
+INFO  13:29:54,520 - #45 )
+INFO  13:29:54,522 - #23 char
+INFO  13:29:54,523 - #23 d
+INFO  13:29:54,523 - #42 ,
+INFO  13:29:54,523 - #23 m
+INFO  13:29:54,523 - #46 [
+INFO  13:29:54,524 - #47 ]
+INFO  13:29:54,524 - #40 ;
+INFO  13:29:54,525 - #48 {
+INFO  13:29:54,527 - #23 y
+INFO  13:29:54,528 - #46 [
+INFO  13:29:54,529 - #23 o
+INFO  13:29:54,532 - #46 [
+INFO  13:29:54,532 - #51 1
+INFO  13:29:54,533 - #47 ]
+INFO  13:29:54,538 - #47 ]
+INFO  13:29:54,539 - #38 ++
+INFO  13:29:54,540 - #40 ;
+INFO  13:29:54,542 - #49 }
+INFO  13:29:54,543 - #49 }
+INFO  13:29:54,556 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList1(
+       y
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList1(
+         z
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList1(
+           q
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            GlobVarDeclList1(
+             o
+              SqrdOptionVar1(
+              ) [SqrdOptionVar1]
+              GlobVarDeclList1(
+               f
+                SqrdOptionVar1(
+                ) [SqrdOptionVar1]
+                GlobVarDeclList1(
+                 g
+                  SqrdOptionVar2(
+                  ) [SqrdOptionVar2]
+                  GlobVarDeclList1(
+                   k
+                    SqrdOptionVar2(
+                    ) [SqrdOptionVar2]
+                    GlobVarDeclList1(
+                     c
+                      SqrdOptionVar2(
+                      ) [SqrdOptionVar2]
+                      GlobVarDeclList2(
+                      ) [GlobVarDeclList2]
+                    ) [GlobVarDeclList1]
+                  ) [GlobVarDeclList1]
+                ) [GlobVarDeclList1]
+              ) [GlobVarDeclList1]
+            ) [GlobVarDeclList1]
+          ) [GlobVarDeclList1]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     fun
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         d
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          VarDeclList1(
+           m
+            SqrdOptionVar1(
+            ) [SqrdOptionVar1]
+            VarDeclList2(
+            ) [VarDeclList2]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement1(
+            DesignatorStatement(
+              Designator(
+               y
+                DesignatorList2(
+                  DesignatorList3(
+                  ) [DesignatorList3]
+                  Expr(
+                    MinusOption2(
+                    ) [MinusOption2]
+                    Term(
+                      Factor1(
+                        Designator(
+                         o
+                          DesignatorList2(
+                            DesignatorList3(
+                            ) [DesignatorList3]
+                            Expr(
+                              MinusOption2(
+                              ) [MinusOption2]
+                              Term(
+                                Factor3(
+                                 1
+                                ) [Factor3]
+                                MulopFactorList2(
+                                ) [MulopFactorList2]
+                              ) [Term]
+                              AddopTermList2(
+                              ) [AddopTermList2]
+                            ) [Expr]
+                          ) [DesignatorList2]
+                        ) [Designator]
+                      ) [Factor1]
+                      MulopFactorList2(
+                      ) [MulopFactorList2]
+                    ) [Term]
+                    AddopTermList2(
+                    ) [AddopTermList2]
+                  ) [Expr]
+                ) [DesignatorList2]
+              ) [Designator]
+              DesignatorStmtOptions3(
+              ) [DesignatorStmtOptions3]
+            ) [DesignatorStatement]
+          ) [SingleStatement1]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  13:29:54,556 - ===================================
+ERROR 13:29:54,562 - Greska: element sa imenom: x je vec deklarisan! 
+ERROR 13:29:54,562 - Greska: element sa imenom: y je vec deklarisan! 
+ERROR 13:29:54,562 - Greska: element sa imenom: z je vec deklarisan! 
+ERROR 13:29:54,562 - Greska: element sa imenom: q je vec deklarisan! 
+ERROR 13:29:54,563 - Greska: element sa imenom: o je vec deklarisan! 
+ERROR 13:29:54,563 - Greska: element sa imenom: f je vec deklarisan! 
+ERROR 13:29:54,563 - Greska: element sa imenom: g je vec deklarisan! 
+ERROR 13:29:54,563 - Greska: element sa imenom: k je vec deklarisan! 
+ERROR 13:29:54,563 - Greska: element sa imenom: c je vec deklarisan! 
+INFO  13:29:54,564 - Deklarisana lokalna promenljiva d na liniji 6
+INFO  13:29:54,564 - Deklarisan lokalni niz m na liniji 6
+INFO  13:29:54,564 - Za adresiranje koriscen izraz koji je ceo broj na liniji 4
+INFO  13:29:54,565 - Pristup nizu o na liniji 8

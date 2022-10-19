@@ -1,0 +1,96 @@
+INFO  14:40:11,018 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  14:40:11,134 - #2 program
+INFO  14:40:11,134 - #23 p
+INFO  14:40:11,135 - #23 int
+INFO  14:40:11,137 - #23 x
+INFO  14:40:11,139 - #42 ,
+INFO  14:40:11,142 - #23 y
+INFO  14:40:11,142 - #46 [
+INFO  14:40:11,142 - #47 ]
+INFO  14:40:11,143 - #42 ,
+INFO  14:40:11,144 - #23 y
+INFO  14:40:11,144 - #40 ;
+INFO  14:40:11,145 - #48 {
+INFO  14:40:11,146 - #15 void
+INFO  14:40:11,148 - #23 f
+INFO  14:40:11,149 - #44 (
+INFO  14:40:11,149 - #45 )
+INFO  14:40:11,151 - #23 char
+INFO  14:40:11,152 - #23 y
+INFO  14:40:11,152 - #42 ,
+INFO  14:40:11,156 - #23 q
+INFO  14:40:11,156 - #46 [
+INFO  14:40:11,156 - #47 ]
+INFO  14:40:11,156 - #40 ;
+INFO  14:40:11,158 - #48 {
+INFO  14:40:11,160 - #49 }
+INFO  14:40:11,161 - #49 }
+INFO  14:40:11,165 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList1(
+        GlobVarDeclList1(
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+         y
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+        ) [GlobVarDeclList1]
+       y
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         y
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           q
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:40:11,165 - ===================================
+ERROR 14:40:11,178 - Greska: Nije pronadjen tip int u tabeli simbola! 
+INFO  14:40:11,178 - Deklarisan globalni niz x na liniji 3
+ERROR 14:40:11,178 - Greska: promenljiva sa imenom: y je vec deklarisana! 
+ERROR 14:40:11,178 - Greska: Nije pronadjen tip char u tabeli simbola! 
+INFO  14:40:11,179 -  Print count calls = 0
+INFO  14:40:11,179 -  Deklarisanih promenljivih ima = 2
+INFO  14:40:11,179 -  Deklarisanih globalnih promenljivih ima = 3

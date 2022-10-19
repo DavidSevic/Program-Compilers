@@ -1,0 +1,39 @@
+INFO  18:41:40,257 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  18:41:40,371 - #2 program
+INFO  18:41:40,371 - #23 p
+INFO  18:41:40,372 - #23 int
+INFO  18:41:40,375 - #23 x
+INFO  18:41:40,377 - #42 ,
+INFO  18:41:40,380 - #23 y
+INFO  18:41:40,380 - #40 ;
+INFO  18:41:40,380 - #48 {
+INFO  18:41:40,382 - #49 }
+INFO  18:41:40,385 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOption2(
+      ) [SqrdOption2]
+      VarDeclList1(
+        VarDeclList2(
+        ) [VarDeclList2]
+       y
+        SqrdOption2(
+        ) [SqrdOption2]
+      ) [VarDeclList1]
+    ) [VarDecl]
+  ) [DeclList2]
+  MethodDeclList2(
+  ) [MethodDeclList2]
+) [Program]
+INFO  18:41:40,386 - ===================================
+INFO  18:41:40,390 -  Print count calls = 0
+INFO  18:41:40,390 -  Deklarisanih promenljivih ima = 2

@@ -1,0 +1,82 @@
+INFO  13:46:29,643 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  13:46:29,760 - #2 program
+INFO  13:46:29,760 - #23 p
+INFO  13:46:29,760 - #23 int
+INFO  13:46:29,764 - #23 x
+INFO  13:46:29,766 - #42 ,
+INFO  13:46:29,769 - #23 y
+INFO  13:46:29,769 - #46 [
+INFO  13:46:29,769 - #47 ]
+INFO  13:46:29,770 - #40 ;
+INFO  13:46:29,771 - #48 {
+INFO  13:46:29,773 - #15 void
+INFO  13:46:29,774 - #23 f
+INFO  13:46:29,776 - #44 (
+INFO  13:46:29,776 - #45 )
+INFO  13:46:29,778 - #23 int
+INFO  13:46:29,779 - #23 z
+INFO  13:46:29,779 - #42 ,
+INFO  13:46:29,781 - #23 q
+INFO  13:46:29,781 - #46 [
+INFO  13:46:29,781 - #47 ]
+INFO  13:46:29,781 - #40 ;
+INFO  13:46:29,782 - #48 {
+INFO  13:46:29,784 - #49 }
+INFO  13:46:29,785 - #49 }
+INFO  13:46:29,789 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOption2(
+      ) [SqrdOption2]
+      GlobVarDeclList1(
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+       y
+        SqrdOption1(
+        ) [SqrdOption1]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         z
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           q
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  13:46:29,790 - ===================================

@@ -1,0 +1,190 @@
+INFO  16:45:08,801 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  16:45:08,969 - #2 program
+INFO  16:45:08,971 - #23 p
+INFO  16:45:08,971 - #23 int
+INFO  16:45:08,974 - #23 x
+INFO  16:45:08,976 - #42 ,
+INFO  16:45:08,979 - #23 arr
+INFO  16:45:08,980 - #46 [
+INFO  16:45:08,980 - #47 ]
+INFO  16:45:08,980 - #40 ;
+INFO  16:45:08,983 - #23 char
+INFO  16:45:08,985 - #23 y
+INFO  16:45:08,985 - #40 ;
+INFO  16:45:08,985 - #48 {
+INFO  16:45:08,986 - #23 int
+INFO  16:45:08,988 - #23 k
+INFO  16:45:08,988 - #44 (
+INFO  16:45:08,992 - #45 )
+INFO  16:45:08,994 - #48 {
+INFO  16:45:08,997 - #14 return
+INFO  16:45:08,999 - #51 5
+INFO  16:45:09,004 - #40 ;
+INFO  16:45:09,013 - #49 }
+INFO  16:45:09,016 - #15 void
+INFO  16:45:09,016 - #23 main
+INFO  16:45:09,017 - #44 (
+INFO  16:45:09,018 - #45 )
+INFO  16:45:09,018 - #48 {
+INFO  16:45:09,018 - #23 arr
+INFO  16:45:09,019 - #37 =
+INFO  16:45:09,024 - #11 new
+INFO  16:45:09,030 - #23 int
+INFO  16:45:09,030 - #46 [
+INFO  16:45:09,030 - #51 99
+INFO  16:45:09,032 - #47 ]
+INFO  16:45:09,032 - #40 ;
+INFO  16:45:09,035 - #49 }
+INFO  16:45:09,036 - #49 }
+INFO  16:45:09,067 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList1(
+         arr
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl1(
+        TypeIdentMeth(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [TypeIdentMeth]
+        FormParsOption2(
+        ) [FormParsOption2]
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement7(
+              RETURNhelp(
+              ) [RETURNhelp]
+              Expr(
+                MinusOption2(
+                ) [MinusOption2]
+                Term(
+                  Factor3(
+                   5
+                  ) [Factor3]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+                AddopTermList2(
+                ) [AddopTermList2]
+              ) [Expr]
+              SEMIhelp(
+              ) [SEMIhelp]
+            ) [SingleStatement7]
+          ) [Statement2]
+        ) [StatementList1]
+      ) [MethodDecl1]
+    ) [MethodDeclList1]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement1(
+            DesignatorStatement(
+              Designator(
+                DesignatorIdent(
+                 arr
+                ) [DesignatorIdent]
+                DesignatorList3(
+                ) [DesignatorList3]
+              ) [Designator]
+              DesignatorStmtOptions1(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  MinusOption2(
+                  ) [MinusOption2]
+                  Term(
+                    Factor7(
+                      Type(
+                       int
+                      ) [Type]
+                      LSQRDhelp(
+                      ) [LSQRDhelp]
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           99
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [Factor7]
+                    MulopFactorList2(
+                    ) [MulopFactorList2]
+                  ) [Term]
+                  AddopTermList2(
+                  ) [AddopTermList2]
+                ) [Expr]
+              ) [DesignatorStmtOptions1]
+            ) [DesignatorStatement]
+          ) [SingleStatement1]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  16:45:09,070 - ===================================
+INFO  16:45:09,086 - Deklarisana globalna promenljiva x na liniji 3
+INFO  16:45:09,086 - Deklarisan globalni niz arr na liniji 3
+INFO  16:45:09,086 - Deklarisana globalna promenljiva y na liniji 4
+INFO  16:45:09,089 - METODA k IMA 0 PARAMETARA na liniji 17
+INFO  16:45:09,091 - METODA main IMA 0 PARAMETARA na liniji 19
+INFO  16:45:09,092 - NEMA
+INFO  16:45:09,092 -  Print count calls = 0
+INFO  16:45:09,092 -  Deklarisanih konstanti ima = 0
+INFO  16:45:09,093 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  16:45:09,093 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  16:45:09,093 - ===================================
+INFO  16:45:09,124 - Parsiranje uspesno zavrseno!

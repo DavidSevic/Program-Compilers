@@ -1,0 +1,226 @@
+program MJProgram
+	int x; int y; const int z;
+{
+	
+	int k () int c; {
+		c = 1;
+		return c+2;
+	}
+	
+	int main() {
+		y = 2;
+		x = y + 2;
+		y = k() + 3;
+		print(y);
+		return 0;
+	}
+}
+
+
+DRUGI
+
+program MJProgram
+	const int x = 1, y = 'a', z = false;
+	int a, b[], c;
+	const int w = 0;
+	int d;
+	
+	record R {
+	
+		int a1, b1[], c1;
+		
+	}
+	
+	class Klasa extends NadKlasa {
+		
+		int a1, b1[], c1;
+		
+		{
+			
+			Klasa() {
+			
+				a1 = 1;
+				
+			}
+			
+			void metoda() {
+				
+				a1--;
+				
+			}
+			
+		}
+	
+	}
+	
+{
+
+	void metoda1(int a1, double b[], float c2) int a3, b3[], c3; {
+	
+		//labela: dsg1[dsg9].dsg2[dsg9].dsg3.dsg4[-dsg5.dsg6.dsg7[dsg9]]++;
+		
+		//dsg1[dsgFactor(dsgFactorActPars,drugi.treci)]++;
+		
+		//labela : dsg1[- new int[(true)]]++;
+		
+		//dsg1[true % false]++;
+		
+		//dsg[- true + false - true](-false);
+		
+		//if ( 7 == 4  && x > y || i != j)
+			//dsg++;
+		//else
+			//dsg--;
+			
+		//do dsg++;
+		
+		//while(i == j);
+		
+		//continue;
+		
+		//return;
+		
+		//return new int;
+		
+		//read (dsg1.dsg2);
+		
+		//print ('a');
+		
+		print ('a', 9999);
+		
+		goto labela;
+		
+		{
+			print ('a', 9999);
+		
+			goto labela;
+		
+		}
+		
+	} 
+
+}
+
+-------------------------------------------------
+
+program p
+
+const int l = 0, constH = 1, j = 2;
+
+int x, arrayY[], o[], f[], g, k, c;
+
+bool globC, arrayC[];
+
+record rec {
+	int recX, recY[];
+	char recC, recH[];
+	bool recB;
+}
+
+record rec1 {
+	
+	rec recZ;
+}
+
+{
+	void main() char y; {}
+
+	void gun() { return;}
+	
+	bool fun() int q, m[]; {
+	
+		//ne treba
+		
+		//q[k[1]] = 5;
+		
+		//arrayY = 5;
+		//constH = 5;
+		//rec = 5;
+		//recX = 5;
+		//rec.recY = 5;
+		
+		//x = false;
+		
+		//arrayY[x] = 'a';
+		
+		//rec.recX = 'a';
+		
+		//rec.recY[x] = 'a';
+		
+		//y = null;
+		//rec.recY = null;
+		
+		//globC++;
+		//arrayC[0]--;
+		//constH++;
+		//rec++;
+		//rec.recC--;
+		//rec.recH[0]++;
+		
+		//fun.fun();
+		
+		//gun = 5;
+		
+		//label1: q++;
+		
+		//label: q--;
+		
+		//goto label1;
+		
+		//do
+	
+		//continue;
+	
+		//while(true);
+		
+		//read(arrayY);
+		//read(m);
+		//read(constH);
+		//read(rec);
+		//read(recX);
+		//read(rec.recY);
+		//read(gun);
+		
+		//read(x);
+		//read(arrayY[x]);
+		//read(m[1]);
+		//read(rec.recB);
+		//read(rec.recY[rec.recX]);
+		
+		//print(true);
+		//print(false, 0);
+		
+		if(m != arrayY)
+			x++;
+		
+		return false;
+	}
+	
+	void test(int i[], char c[], bool b, int ii[]) {
+	
+		label: return;
+	}
+	
+	void ff(char k[]) {}
+	
+	void kk(int n[]) {}
+	
+	bool act() { return true; }
+	
+	int pars(int a, char b) {
+		
+		//test('a', x, arrayY[0]);
+	
+		//test();
+		
+		//ff(arrayY);
+		
+		//rec.recY = new int[0];
+		
+		//kk(new int[10]);
+		
+		return 0 + 'a' + arrayY + false;
+	}
+	
+	int bbbb() { return pars(1, 's'); }
+}

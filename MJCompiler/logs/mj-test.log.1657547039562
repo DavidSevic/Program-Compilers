@@ -1,0 +1,77 @@
+INFO  15:42:05,318 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  15:42:05,431 - #2 program
+INFO  15:42:05,432 - #23 p
+INFO  15:42:05,432 - #48 {
+INFO  15:42:05,434 - #15 void
+INFO  15:42:05,435 - #23 f
+INFO  15:42:05,437 - #44 (
+INFO  15:42:05,437 - #45 )
+INFO  15:42:05,438 - #48 {
+INFO  15:42:05,440 - #14 return
+INFO  15:42:05,441 - #52 0
+INFO  15:42:05,443 - #24 +
+INFO  15:42:05,449 - #52 1
+INFO  15:42:05,452 - #40 ;
+INFO  15:42:05,454 - #49 }
+INFO  15:42:05,454 - #49 }
+INFO  15:42:05,459 - Program(
+ p
+  DeclList5(
+  ) [DeclList5]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement7(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor(
+                  BaseExp3(
+                   0
+                  ) [BaseExp3]
+                  ExPopBaseExpList2(
+                  ) [ExPopBaseExpList2]
+                ) [Factor]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList1(
+                AddopTermList2(
+                ) [AddopTermList2]
+                Addop1(
+                ) [Addop1]
+                Term(
+                  Factor(
+                    BaseExp3(
+                     1
+                    ) [BaseExp3]
+                    ExPopBaseExpList2(
+                    ) [ExPopBaseExpList2]
+                  ) [Factor]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+              ) [AddopTermList1]
+            ) [Expr]
+          ) [SingleStatement7]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:42:05,459 - ===================================
+INFO  15:42:05,463 -  Print count calls = 0
+INFO  15:42:05,463 -  Deklarisanih promenljivih ima = 0

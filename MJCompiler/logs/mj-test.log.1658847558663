@@ -1,0 +1,885 @@
+INFO  16:58:53,559 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  16:58:53,714 - #2 program
+INFO  16:58:53,714 - #23 p
+INFO  16:58:53,715 - #7 const
+INFO  16:58:53,719 - #23 int
+INFO  16:58:53,720 - #23 l
+INFO  16:58:53,722 - #37 =
+INFO  16:58:53,722 - #51 0
+INFO  16:58:53,723 - #42 ,
+INFO  16:58:53,723 - #23 constH
+INFO  16:58:53,723 - #37 =
+INFO  16:58:53,723 - #51 1
+INFO  16:58:53,724 - #42 ,
+INFO  16:58:53,724 - #23 j
+INFO  16:58:53,724 - #37 =
+INFO  16:58:53,724 - #51 2
+INFO  16:58:53,725 - #40 ;
+INFO  16:58:53,726 - #23 int
+INFO  16:58:53,728 - #23 x
+INFO  16:58:53,729 - #42 ,
+INFO  16:58:53,732 - #23 arrayY
+INFO  16:58:53,732 - #46 [
+INFO  16:58:53,732 - #47 ]
+INFO  16:58:53,733 - #42 ,
+INFO  16:58:53,735 - #23 o
+INFO  16:58:53,735 - #46 [
+INFO  16:58:53,735 - #47 ]
+INFO  16:58:53,735 - #42 ,
+INFO  16:58:53,735 - #23 f
+INFO  16:58:53,735 - #46 [
+INFO  16:58:53,735 - #47 ]
+INFO  16:58:53,735 - #42 ,
+INFO  16:58:53,736 - #23 g
+INFO  16:58:53,736 - #42 ,
+INFO  16:58:53,737 - #23 k
+INFO  16:58:53,737 - #42 ,
+INFO  16:58:53,737 - #23 c
+INFO  16:58:53,737 - #40 ;
+INFO  16:58:53,739 - #23 bool
+INFO  16:58:53,742 - #23 globC
+INFO  16:58:53,742 - #42 ,
+INFO  16:58:53,742 - #23 arrayC
+INFO  16:58:53,743 - #46 [
+INFO  16:58:53,743 - #47 ]
+INFO  16:58:53,743 - #40 ;
+INFO  16:58:53,743 - #21 record
+INFO  16:58:53,743 - #23 rec
+INFO  16:58:53,743 - #48 {
+INFO  16:58:53,746 - #23 int
+INFO  16:58:53,748 - #23 recX
+INFO  16:58:53,749 - #42 ,
+INFO  16:58:53,749 - #23 recY
+INFO  16:58:53,749 - #46 [
+INFO  16:58:53,749 - #47 ]
+INFO  16:58:53,749 - #40 ;
+INFO  16:58:53,752 - #23 char
+INFO  16:58:53,754 - #23 recC
+INFO  16:58:53,755 - #42 ,
+INFO  16:58:53,755 - #23 recH
+INFO  16:58:53,755 - #46 [
+INFO  16:58:53,755 - #47 ]
+INFO  16:58:53,756 - #40 ;
+INFO  16:58:53,756 - #23 bool
+INFO  16:58:53,756 - #23 recB
+INFO  16:58:53,756 - #40 ;
+INFO  16:58:53,756 - #49 }
+INFO  16:58:53,756 - #21 record
+INFO  16:58:53,758 - #23 rec1
+INFO  16:58:53,759 - #48 {
+INFO  16:58:53,759 - #23 rec
+INFO  16:58:53,765 - #23 recZ
+INFO  16:58:53,765 - #40 ;
+INFO  16:58:53,765 - #49 }
+INFO  16:58:53,765 - #48 {
+INFO  16:58:53,768 - #15 void
+INFO  16:58:53,769 - #23 main
+INFO  16:58:53,769 - #44 (
+INFO  16:58:53,776 - #45 )
+INFO  16:58:53,778 - #23 char
+INFO  16:58:53,779 - #23 y
+INFO  16:58:53,779 - #40 ;
+INFO  16:58:53,779 - #48 {
+INFO  16:58:53,779 - #49 }
+INFO  16:58:53,781 - #15 void
+INFO  16:58:53,783 - #23 gun
+INFO  16:58:53,783 - #44 (
+INFO  16:58:53,783 - #45 )
+INFO  16:58:53,783 - #48 {
+INFO  16:58:53,783 - #14 return
+INFO  16:58:53,783 - #40 ;
+INFO  16:58:53,783 - #49 }
+INFO  16:58:53,785 - #23 bool
+INFO  16:58:53,785 - #23 fun
+INFO  16:58:53,786 - #44 (
+INFO  16:58:53,788 - #45 )
+INFO  16:58:53,788 - #23 int
+INFO  16:58:53,788 - #23 q
+INFO  16:58:53,788 - #42 ,
+INFO  16:58:53,788 - #23 m
+INFO  16:58:53,788 - #46 [
+INFO  16:58:53,789 - #47 ]
+INFO  16:58:53,789 - #40 ;
+INFO  16:58:53,789 - #48 {
+INFO  16:58:53,789 - #8 if
+INFO  16:58:53,789 - #44 (
+INFO  16:58:53,789 - #23 m
+INFO  16:58:53,793 - #30 !=
+INFO  16:58:53,805 - #23 arrayY
+INFO  16:58:53,808 - #45 )
+INFO  16:58:53,815 - #23 x
+INFO  16:58:53,815 - #38 ++
+INFO  16:58:53,816 - #40 ;
+INFO  16:58:53,819 - #14 return
+INFO  16:58:53,820 - #53 false
+INFO  16:58:53,822 - #40 ;
+INFO  16:58:53,822 - #49 }
+INFO  16:58:53,824 - #15 void
+INFO  16:58:53,824 - #23 test
+INFO  16:58:53,825 - #44 (
+INFO  16:58:53,825 - #23 int
+INFO  16:58:53,825 - #23 i
+INFO  16:58:53,825 - #46 [
+INFO  16:58:53,825 - #47 ]
+INFO  16:58:53,825 - #42 ,
+INFO  16:58:53,829 - #23 char
+INFO  16:58:53,830 - #23 c
+INFO  16:58:53,830 - #46 [
+INFO  16:58:53,830 - #47 ]
+INFO  16:58:53,830 - #42 ,
+INFO  16:58:53,831 - #23 bool
+INFO  16:58:53,831 - #23 b
+INFO  16:58:53,831 - #42 ,
+INFO  16:58:53,833 - #23 int
+INFO  16:58:53,833 - #23 ii
+INFO  16:58:53,833 - #46 [
+INFO  16:58:53,833 - #47 ]
+INFO  16:58:53,833 - #45 )
+INFO  16:58:53,836 - #48 {
+INFO  16:58:53,836 - #23 label
+INFO  16:58:53,837 - #41 :
+INFO  16:58:53,838 - #14 return
+INFO  16:58:53,840 - #40 ;
+INFO  16:58:53,840 - #49 }
+INFO  16:58:53,841 - #15 void
+INFO  16:58:53,841 - #23 ff
+INFO  16:58:53,841 - #44 (
+INFO  16:58:53,841 - #23 char
+INFO  16:58:53,841 - #23 k
+INFO  16:58:53,842 - #46 [
+INFO  16:58:53,842 - #47 ]
+INFO  16:58:53,842 - #45 )
+INFO  16:58:53,842 - #48 {
+INFO  16:58:53,842 - #49 }
+INFO  16:58:53,842 - #15 void
+INFO  16:58:53,842 - #23 kk
+INFO  16:58:53,842 - #44 (
+INFO  16:58:53,842 - #23 int
+INFO  16:58:53,842 - #23 n
+INFO  16:58:53,843 - #46 [
+INFO  16:58:53,843 - #47 ]
+INFO  16:58:53,843 - #45 )
+INFO  16:58:53,843 - #48 {
+INFO  16:58:53,843 - #49 }
+INFO  16:58:53,845 - #23 bool
+INFO  16:58:53,846 - #23 act
+INFO  16:58:53,847 - #44 (
+INFO  16:58:53,848 - #45 )
+INFO  16:58:53,848 - #48 {
+INFO  16:58:53,848 - #14 return
+INFO  16:58:53,849 - #53 true
+INFO  16:58:53,849 - #40 ;
+INFO  16:58:53,849 - #49 }
+INFO  16:58:53,849 - #23 int
+INFO  16:58:53,849 - #23 pars
+INFO  16:58:53,850 - #44 (
+INFO  16:58:53,850 - #23 int
+INFO  16:58:53,851 - #23 a
+INFO  16:58:53,851 - #42 ,
+INFO  16:58:53,851 - #23 char
+INFO  16:58:53,851 - #23 b
+INFO  16:58:53,851 - #45 )
+INFO  16:58:53,851 - #48 {
+INFO  16:58:53,851 - #14 return
+INFO  16:58:53,851 - #23 arrayY
+INFO  16:58:53,852 - #46 [
+INFO  16:58:53,852 - #51 0
+INFO  16:58:53,852 - #47 ]
+INFO  16:58:53,853 - #40 ;
+INFO  16:58:53,854 - #49 }
+INFO  16:58:53,854 - #23 int
+INFO  16:58:53,854 - #23 bbbb
+INFO  16:58:53,854 - #44 (
+INFO  16:58:53,854 - #45 )
+INFO  16:58:53,855 - #48 {
+INFO  16:58:53,855 - #14 return
+INFO  16:58:53,855 - #23 pars
+INFO  16:58:53,855 - #44 (
+INFO  16:58:53,855 - #51 1
+INFO  16:58:53,857 - #42 ,
+INFO  16:58:53,858 - #51 1
+INFO  16:58:53,858 - #45 )
+INFO  16:58:53,860 - #40 ;
+INFO  16:58:53,864 - #49 }
+INFO  16:58:53,864 - #49 }
+INFO  16:58:53,884 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList3(
+    DeclList3(
+      DeclList2(
+        DeclList2(
+          DeclList1(
+            DeclList5(
+            ) [DeclList5]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             l
+              ConstOption1(
+               0
+              ) [ConstOption1]
+              ConstDeclList1(
+               constH
+                ConstOption1(
+                 1
+                ) [ConstOption1]
+                ConstDeclList1(
+                 j
+                  ConstOption1(
+                   2
+                  ) [ConstOption1]
+                  ConstDeclList2(
+                  ) [ConstDeclList2]
+                ) [ConstDeclList1]
+              ) [ConstDeclList1]
+            ) [ConstDecl]
+          ) [DeclList1]
+          GlobVarDecl(
+            Type(
+             int
+            ) [Type]
+           x
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            GlobVarDeclList1(
+             arrayY
+              SqrdOptionVar1(
+              ) [SqrdOptionVar1]
+              GlobVarDeclList1(
+               o
+                SqrdOptionVar1(
+                ) [SqrdOptionVar1]
+                GlobVarDeclList1(
+                 f
+                  SqrdOptionVar1(
+                  ) [SqrdOptionVar1]
+                  GlobVarDeclList1(
+                   g
+                    SqrdOptionVar2(
+                    ) [SqrdOptionVar2]
+                    GlobVarDeclList1(
+                     k
+                      SqrdOptionVar2(
+                      ) [SqrdOptionVar2]
+                      GlobVarDeclList1(
+                       c
+                        SqrdOptionVar2(
+                        ) [SqrdOptionVar2]
+                        GlobVarDeclList2(
+                        ) [GlobVarDeclList2]
+                      ) [GlobVarDeclList1]
+                    ) [GlobVarDeclList1]
+                  ) [GlobVarDeclList1]
+                ) [GlobVarDeclList1]
+              ) [GlobVarDeclList1]
+            ) [GlobVarDeclList1]
+          ) [GlobVarDecl]
+        ) [DeclList2]
+        GlobVarDecl(
+          Type(
+           bool
+          ) [Type]
+         globC
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList1(
+           arrayC
+            SqrdOptionVar1(
+            ) [SqrdOptionVar1]
+            GlobVarDeclList2(
+            ) [GlobVarDeclList2]
+          ) [GlobVarDeclList1]
+        ) [GlobVarDecl]
+      ) [DeclList2]
+      RecordDecl(
+        RecordIdent(
+         rec
+        ) [RecordIdent]
+        VarDeclOption1(
+          VarDeclOption1(
+            VarDeclOption1(
+              VarDeclOption2(
+              ) [VarDeclOption2]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+               recX
+                SqrdOptionVar2(
+                ) [SqrdOptionVar2]
+                VarDeclList1(
+                 recY
+                  SqrdOptionVar1(
+                  ) [SqrdOptionVar1]
+                  VarDeclList2(
+                  ) [VarDeclList2]
+                ) [VarDeclList1]
+              ) [VarDecl]
+            ) [VarDeclOption1]
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+             recC
+              SqrdOptionVar2(
+              ) [SqrdOptionVar2]
+              VarDeclList1(
+               recH
+                SqrdOptionVar1(
+                ) [SqrdOptionVar1]
+                VarDeclList2(
+                ) [VarDeclList2]
+              ) [VarDeclList1]
+            ) [VarDecl]
+          ) [VarDeclOption1]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+           recB
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            VarDeclList2(
+            ) [VarDeclList2]
+          ) [VarDecl]
+        ) [VarDeclOption1]
+      ) [RecordDecl]
+    ) [DeclList3]
+    RecordDecl(
+      RecordIdent(
+       rec1
+      ) [RecordIdent]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           rec
+          ) [Type]
+         recZ
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          VarDeclList2(
+          ) [VarDeclList2]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+    ) [RecordDecl]
+  ) [DeclList3]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList1(
+        MethodDeclList1(
+          MethodDeclList1(
+            MethodDeclList1(
+              MethodDeclList1(
+                MethodDeclList1(
+                  MethodDeclList1(
+                    MethodDeclList2(
+                    ) [MethodDeclList2]
+                    MethodDecl2(
+                      VoidIdentMeth(
+                       main
+                      ) [VoidIdentMeth]
+                      FormParsOption2(
+                      ) [FormParsOption2]
+                      VarDeclOption1(
+                        VarDeclOption2(
+                        ) [VarDeclOption2]
+                        VarDecl(
+                          Type(
+                           char
+                          ) [Type]
+                         y
+                          SqrdOptionVar2(
+                          ) [SqrdOptionVar2]
+                          VarDeclList2(
+                          ) [VarDeclList2]
+                        ) [VarDecl]
+                      ) [VarDeclOption1]
+                      StatementList2(
+                      ) [StatementList2]
+                    ) [MethodDecl2]
+                  ) [MethodDeclList1]
+                  MethodDecl2(
+                    VoidIdentMeth(
+                     gun
+                    ) [VoidIdentMeth]
+                    FormParsOption2(
+                    ) [FormParsOption2]
+                    VarDeclOption2(
+                    ) [VarDeclOption2]
+                    StatementList1(
+                      StatementList2(
+                      ) [StatementList2]
+                      Statement2(
+                        SingleStatement6(
+                        ) [SingleStatement6]
+                      ) [Statement2]
+                    ) [StatementList1]
+                  ) [MethodDecl2]
+                ) [MethodDeclList1]
+                MethodDecl1(
+                  TypeIdentMeth(
+                    Type(
+                     bool
+                    ) [Type]
+                   fun
+                  ) [TypeIdentMeth]
+                  FormParsOption2(
+                  ) [FormParsOption2]
+                  VarDeclOption1(
+                    VarDeclOption2(
+                    ) [VarDeclOption2]
+                    VarDecl(
+                      Type(
+                       int
+                      ) [Type]
+                     q
+                      SqrdOptionVar2(
+                      ) [SqrdOptionVar2]
+                      VarDeclList1(
+                       m
+                        SqrdOptionVar1(
+                        ) [SqrdOptionVar1]
+                        VarDeclList2(
+                        ) [VarDeclList2]
+                      ) [VarDeclList1]
+                    ) [VarDecl]
+                  ) [VarDeclOption1]
+                  StatementList1(
+                    StatementList1(
+                      StatementList2(
+                      ) [StatementList2]
+                      Statement2(
+                        SingleStatement2(
+                          Condition(
+                            CondTerm(
+                              CondFact2(
+                                Expr(
+                                  MinusOption2(
+                                  ) [MinusOption2]
+                                  Term(
+                                    Factor1(
+                                      Designator(
+                                        DesignatorIdent(
+                                         m
+                                        ) [DesignatorIdent]
+                                        DesignatorList3(
+                                        ) [DesignatorList3]
+                                      ) [Designator]
+                                    ) [Factor1]
+                                    MulopFactorList2(
+                                    ) [MulopFactorList2]
+                                  ) [Term]
+                                  AddopTermList2(
+                                  ) [AddopTermList2]
+                                ) [Expr]
+                                Relop2(
+                                ) [Relop2]
+                                Expr(
+                                  MinusOption2(
+                                  ) [MinusOption2]
+                                  Term(
+                                    Factor1(
+                                      Designator(
+                                        DesignatorIdent(
+                                         arrayY
+                                        ) [DesignatorIdent]
+                                        DesignatorList3(
+                                        ) [DesignatorList3]
+                                      ) [Designator]
+                                    ) [Factor1]
+                                    MulopFactorList2(
+                                    ) [MulopFactorList2]
+                                  ) [Term]
+                                  AddopTermList2(
+                                  ) [AddopTermList2]
+                                ) [Expr]
+                              ) [CondFact2]
+                              CondFactList2(
+                              ) [CondFactList2]
+                            ) [CondTerm]
+                            CondTermList2(
+                            ) [CondTermList2]
+                          ) [Condition]
+                          Statement2(
+                            SingleStatement1(
+                              DesignatorStatement(
+                                Designator(
+                                  DesignatorIdent(
+                                   x
+                                  ) [DesignatorIdent]
+                                  DesignatorList3(
+                                  ) [DesignatorList3]
+                                ) [Designator]
+                                DesignatorStmtOptions3(
+                                ) [DesignatorStmtOptions3]
+                              ) [DesignatorStatement]
+                            ) [SingleStatement1]
+                          ) [Statement2]
+                          ElseStmtOption2(
+                          ) [ElseStmtOption2]
+                        ) [SingleStatement2]
+                      ) [Statement2]
+                    ) [StatementList1]
+                    Statement2(
+                      SingleStatement7(
+                        RETURNhelp(
+                        ) [RETURNhelp]
+                        Expr(
+                          MinusOption2(
+                          ) [MinusOption2]
+                          Term(
+                            Factor5(
+                             false
+                            ) [Factor5]
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                          ) [Term]
+                          AddopTermList2(
+                          ) [AddopTermList2]
+                        ) [Expr]
+                        SEMIhelp(
+                        ) [SEMIhelp]
+                      ) [SingleStatement7]
+                    ) [Statement2]
+                  ) [StatementList1]
+                ) [MethodDecl1]
+              ) [MethodDeclList1]
+              MethodDecl2(
+                VoidIdentMeth(
+                 test
+                ) [VoidIdentMeth]
+                FormParsOption1(
+                  FormPars(
+                    Type(
+                     int
+                    ) [Type]
+                   i
+                    SqrdOption1(
+                    ) [SqrdOption1]
+                    FormParsList1(
+                      FormParsList1(
+                        FormParsList1(
+                          FormParsList2(
+                          ) [FormParsList2]
+                          Type(
+                           char
+                          ) [Type]
+                         c
+                          SqrdOption1(
+                          ) [SqrdOption1]
+                        ) [FormParsList1]
+                        Type(
+                         bool
+                        ) [Type]
+                       b
+                        SqrdOption2(
+                        ) [SqrdOption2]
+                      ) [FormParsList1]
+                      Type(
+                       int
+                      ) [Type]
+                     ii
+                      SqrdOption1(
+                      ) [SqrdOption1]
+                    ) [FormParsList1]
+                  ) [FormPars]
+                ) [FormParsOption1]
+                VarDeclOption2(
+                ) [VarDeclOption2]
+                StatementList1(
+                  StatementList2(
+                  ) [StatementList2]
+                  Statement1(
+                    WithLabel(
+                      Label(
+                       label
+                      ) [Label]
+                    ) [WithLabel]
+                    SingleStatement6(
+                    ) [SingleStatement6]
+                  ) [Statement1]
+                ) [StatementList1]
+              ) [MethodDecl2]
+            ) [MethodDeclList1]
+            MethodDecl2(
+              VoidIdentMeth(
+               ff
+              ) [VoidIdentMeth]
+              FormParsOption1(
+                FormPars(
+                  Type(
+                   char
+                  ) [Type]
+                 k
+                  SqrdOption1(
+                  ) [SqrdOption1]
+                  FormParsList2(
+                  ) [FormParsList2]
+                ) [FormPars]
+              ) [FormParsOption1]
+              VarDeclOption2(
+              ) [VarDeclOption2]
+              StatementList2(
+              ) [StatementList2]
+            ) [MethodDecl2]
+          ) [MethodDeclList1]
+          MethodDecl2(
+            VoidIdentMeth(
+             kk
+            ) [VoidIdentMeth]
+            FormParsOption1(
+              FormPars(
+                Type(
+                 int
+                ) [Type]
+               n
+                SqrdOption1(
+                ) [SqrdOption1]
+                FormParsList2(
+                ) [FormParsList2]
+              ) [FormPars]
+            ) [FormParsOption1]
+            VarDeclOption2(
+            ) [VarDeclOption2]
+            StatementList2(
+            ) [StatementList2]
+          ) [MethodDecl2]
+        ) [MethodDeclList1]
+        MethodDecl1(
+          TypeIdentMeth(
+            Type(
+             bool
+            ) [Type]
+           act
+          ) [TypeIdentMeth]
+          FormParsOption2(
+          ) [FormParsOption2]
+          VarDeclOption2(
+          ) [VarDeclOption2]
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement2(
+              SingleStatement7(
+                RETURNhelp(
+                ) [RETURNhelp]
+                Expr(
+                  MinusOption2(
+                  ) [MinusOption2]
+                  Term(
+                    Factor5(
+                     true
+                    ) [Factor5]
+                    MulopFactorList2(
+                    ) [MulopFactorList2]
+                  ) [Term]
+                  AddopTermList2(
+                  ) [AddopTermList2]
+                ) [Expr]
+                SEMIhelp(
+                ) [SEMIhelp]
+              ) [SingleStatement7]
+            ) [Statement2]
+          ) [StatementList1]
+        ) [MethodDecl1]
+      ) [MethodDeclList1]
+      MethodDecl1(
+        TypeIdentMeth(
+          Type(
+           int
+          ) [Type]
+         pars
+        ) [TypeIdentMeth]
+        FormParsOption1(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+           a
+            SqrdOption2(
+            ) [SqrdOption2]
+            FormParsList1(
+              FormParsList2(
+              ) [FormParsList2]
+              Type(
+               char
+              ) [Type]
+             b
+              SqrdOption2(
+              ) [SqrdOption2]
+            ) [FormParsList1]
+          ) [FormPars]
+        ) [FormParsOption1]
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement7(
+              RETURNhelp(
+              ) [RETURNhelp]
+              Expr(
+                MinusOption2(
+                ) [MinusOption2]
+                Term(
+                  Factor1(
+                    Designator(
+                      DesignatorIdent(
+                       arrayY
+                      ) [DesignatorIdent]
+                      DesignatorList2(
+                        DesignatorList3(
+                        ) [DesignatorList3]
+                        Expr(
+                          MinusOption2(
+                          ) [MinusOption2]
+                          Term(
+                            Factor3(
+                             0
+                            ) [Factor3]
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                          ) [Term]
+                          AddopTermList2(
+                          ) [AddopTermList2]
+                        ) [Expr]
+                      ) [DesignatorList2]
+                    ) [Designator]
+                  ) [Factor1]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+                AddopTermList2(
+                ) [AddopTermList2]
+              ) [Expr]
+              SEMIhelp(
+              ) [SEMIhelp]
+            ) [SingleStatement7]
+          ) [Statement2]
+        ) [StatementList1]
+      ) [MethodDecl1]
+    ) [MethodDeclList1]
+    MethodDecl1(
+      TypeIdentMeth(
+        Type(
+         int
+        ) [Type]
+       bbbb
+      ) [TypeIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement7(
+            RETURNhelp(
+            ) [RETURNhelp]
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor2(
+                  Designator(
+                    DesignatorIdent(
+                     pars
+                    ) [DesignatorIdent]
+                    DesignatorList3(
+                    ) [DesignatorList3]
+                  ) [Designator]
+                  LPARENpars(
+                  ) [LPARENpars]
+                  ActParsOption1(
+                    ActPars(
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           1
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                      ExprList1(
+                        ExprList2(
+                        ) [ExprList2]
+                        Expr(
+                          MinusOption2(
+                          ) [MinusOption2]
+                          Term(
+                            Factor3(
+                             1
+                            ) [Factor3]
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                          ) [Term]
+                          AddopTermList2(
+                          ) [AddopTermList2]
+                        ) [Expr]
+                      ) [ExprList1]
+                    ) [ActPars]
+                  ) [ActParsOption1]
+                  RPARENpars(
+                  ) [RPARENpars]
+                ) [Factor2]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+            SEMIhelp(
+            ) [SEMIhelp]
+          ) [SingleStatement7]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl1]
+  ) [MethodDeclList1]
+) [Program]
+INFO  16:58:53,887 - ===================================
+INFO  16:58:53,903 - Deklarisana konstanta l na liniji 3
+INFO  16:58:53,903 - Deklarisana konstanta constH na liniji 3
+INFO  16:58:53,903 - Deklarisana konstanta j na liniji 3
+INFO  16:58:53,903 - Deklarisana globalna promenljiva x na liniji 5
+INFO  16:58:53,903 - Deklarisan globalni niz arrayY na liniji 5
+INFO  16:58:53,903 - Deklarisan globalni niz o na liniji 5
+INFO  16:58:53,904 - Deklarisan globalni niz f na liniji 5
+INFO  16:58:53,904 - Deklarisana globalna promenljiva g na liniji 5
+INFO  16:58:53,904 - Deklarisana globalna promenljiva k na liniji 5
+INFO  16:58:53,904 - Deklarisana globalna promenljiva c na liniji 5
+INFO  16:58:53,904 - Deklarisana globalna promenljiva globC na liniji 7
+INFO  16:58:53,904 - Deklarisan globalni niz arrayC na liniji 7
+INFO  16:58:53,904 - Deklarisana promenljiva kao polje recX na liniji 10
+INFO  16:58:53,904 - Deklarisan niz kao polje recY na liniji 10
+INFO  16:58:53,904 - Deklarisana promenljiva kao polje recC na liniji 11
+INFO  16:58:53,904 - Deklarisan niz kao polje recH na liniji 11
+INFO  16:58:53,905 - Deklarisana promenljiva kao polje recB na liniji 12
+INFO  16:58:53,905 - Deklarisana promenljiva kao polje recZ na liniji 17
+INFO  16:58:53,905 - Deklarisana lokalna promenljiva y na liniji 21
+INFO  16:58:53,905 - Deklarisana lokalna promenljiva q na liniji 25
+INFO  16:58:53,905 - Deklarisan lokalni niz m na liniji 25
+INFO  16:58:53,907 - Za adresiranje koriscen izraz koji je ceo broj na liniji 9
+INFO  16:58:53,907 - Pristup nizu arrayY na liniji 113
+ERROR 16:58:53,908 - Greska: Pri pozivu metode pars , stvarni paramatar na poziciji: 2 ne odgovara formalnom parametru na toj poziciji! na liniji 116
+INFO  16:58:53,908 - tip: 1 na liniji 116
+INFO  16:58:53,908 - tip: 1 na liniji 116
+INFO  16:58:53,908 - Poziv funckije:  pars na liniji 116
+INFO  16:58:53,909 - NEMA
+INFO  16:58:53,909 -  Print count calls = 0
+INFO  16:58:53,909 -  Deklarisanih konstanti ima = 3
+INFO  16:58:53,909 -  Deklarisanih globalnih promenljivih ima = 5
+INFO  16:58:53,909 -  Deklarisanih lokalnih promenljivih ima = 2
+INFO  16:58:53,909 - ===================================
+ERROR 16:58:53,911 - Parsiranje NIJE uspesno zavrseno!

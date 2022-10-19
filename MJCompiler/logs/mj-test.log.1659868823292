@@ -1,0 +1,200 @@
+INFO  12:31:29,703 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  12:31:29,869 - #2 program
+INFO  12:31:29,869 - #23 p
+INFO  12:31:29,870 - #23 int
+INFO  12:31:29,873 - #23 x
+INFO  12:31:29,875 - #42 ,
+INFO  12:31:29,878 - #23 arr
+INFO  12:31:29,878 - #46 [
+INFO  12:31:29,879 - #47 ]
+INFO  12:31:29,879 - #40 ;
+INFO  12:31:29,882 - #23 char
+INFO  12:31:29,884 - #23 y
+INFO  12:31:29,884 - #40 ;
+INFO  12:31:29,885 - #48 {
+INFO  12:31:29,885 - #15 void
+INFO  12:31:29,887 - #23 main
+INFO  12:31:29,887 - #44 (
+INFO  12:31:29,889 - #45 )
+INFO  12:31:29,891 - #48 {
+INFO  12:31:29,893 - #23 arr
+INFO  12:31:29,895 - #37 =
+INFO  12:31:29,900 - #11 new
+INFO  12:31:29,905 - #23 int
+INFO  12:31:29,906 - #46 [
+INFO  12:31:29,906 - #51 99
+INFO  12:31:29,908 - #47 ]
+INFO  12:31:29,915 - #40 ;
+INFO  12:31:29,919 - #23 arr
+INFO  12:31:29,920 - #46 [
+INFO  12:31:29,920 - #51 50
+INFO  12:31:29,920 - #47 ]
+INFO  12:31:29,920 - #37 =
+INFO  12:31:29,921 - #51 98
+INFO  12:31:29,921 - #40 ;
+INFO  12:31:29,921 - #49 }
+INFO  12:31:29,921 - #49 }
+INFO  12:31:29,964 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList1(
+         arr
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement1(
+              DesignatorStatement(
+                Designator(
+                  DesignatorIdent(
+                   arr
+                  ) [DesignatorIdent]
+                  DesignatorList3(
+                  ) [DesignatorList3]
+                ) [Designator]
+                DesignatorStmtOptions1(
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    MinusOption2(
+                    ) [MinusOption2]
+                    Term(
+                      Factor7(
+                        Type(
+                         int
+                        ) [Type]
+                        LSQRDhelp(
+                        ) [LSQRDhelp]
+                        Expr(
+                          MinusOption2(
+                          ) [MinusOption2]
+                          Term(
+                            Factor3(
+                             99
+                            ) [Factor3]
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                          ) [Term]
+                          AddopTermList2(
+                          ) [AddopTermList2]
+                        ) [Expr]
+                      ) [Factor7]
+                      MulopFactorList2(
+                      ) [MulopFactorList2]
+                    ) [Term]
+                    AddopTermList2(
+                    ) [AddopTermList2]
+                  ) [Expr]
+                ) [DesignatorStmtOptions1]
+              ) [DesignatorStatement]
+            ) [SingleStatement1]
+          ) [Statement2]
+        ) [StatementList1]
+        Statement2(
+          SingleStatement1(
+            DesignatorStatement(
+              Designator(
+                DesignatorIdent(
+                 arr
+                ) [DesignatorIdent]
+                DesignatorList2(
+                  DesignatorList3(
+                  ) [DesignatorList3]
+                  LSQRDhelp(
+                  ) [LSQRDhelp]
+                  Expr(
+                    MinusOption2(
+                    ) [MinusOption2]
+                    Term(
+                      Factor3(
+                       50
+                      ) [Factor3]
+                      MulopFactorList2(
+                      ) [MulopFactorList2]
+                    ) [Term]
+                    AddopTermList2(
+                    ) [AddopTermList2]
+                  ) [Expr]
+                ) [DesignatorList2]
+              ) [Designator]
+              DesignatorStmtOptions1(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  MinusOption2(
+                  ) [MinusOption2]
+                  Term(
+                    Factor3(
+                     98
+                    ) [Factor3]
+                    MulopFactorList2(
+                    ) [MulopFactorList2]
+                  ) [Term]
+                  AddopTermList2(
+                  ) [AddopTermList2]
+                ) [Expr]
+              ) [DesignatorStmtOptions1]
+            ) [DesignatorStatement]
+          ) [SingleStatement1]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  12:31:29,968 - ===================================
+INFO  12:31:29,982 - Deklarisana globalna promenljiva x na liniji 3
+INFO  12:31:29,982 - Deklarisan globalni niz arr na liniji 3
+INFO  12:31:29,982 - Deklarisana globalna promenljiva y na liniji 4
+INFO  12:31:29,983 - Za adresiranje koriscen izraz koji je ceo broj na liniji 2
+INFO  12:31:29,984 - Pristup nizu arr na liniji 33
+INFO  12:31:29,984 - URADIOOOOOOOOOOOOOOOOOOOOOOOOO
+INFO  12:31:29,984 - METODA main IMA 0 PARAMETARA na liniji 17
+INFO  12:31:29,984 - NEMA
+INFO  12:31:29,984 -  Print count calls = 0
+INFO  12:31:29,984 -  Deklarisanih konstanti ima = 0
+INFO  12:31:29,985 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  12:31:29,985 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  12:31:29,985 - ===================================
+INFO  12:31:30,012 - Parsiranje uspesno zavrseno!

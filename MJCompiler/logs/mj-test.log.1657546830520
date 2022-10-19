@@ -1,0 +1,60 @@
+INFO  15:39:01,572 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  15:39:01,737 - #2 program
+INFO  15:39:01,737 - #23 p
+INFO  15:39:01,738 - #48 {
+INFO  15:39:01,739 - #15 void
+INFO  15:39:01,741 - #23 f
+INFO  15:39:01,743 - #44 (
+INFO  15:39:01,743 - #45 )
+INFO  15:39:01,744 - #48 {
+INFO  15:39:01,746 - #14 return
+INFO  15:39:01,747 - #52 0
+INFO  15:39:01,751 - #40 ;
+INFO  15:39:01,759 - #49 }
+INFO  15:39:01,760 - #49 }
+INFO  15:39:01,763 - Program(
+ p
+  DeclList5(
+  ) [DeclList5]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement7(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor(
+                  BaseExp3(
+                   0
+                  ) [BaseExp3]
+                  ExPopBaseExpList2(
+                  ) [ExPopBaseExpList2]
+                ) [Factor]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+          ) [SingleStatement7]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:39:01,764 - ===================================
+INFO  15:39:01,769 -  Print count calls = 0
+INFO  15:39:01,769 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,159 @@
+INFO  18:14:28,628 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  18:14:28,691 - #2 program
+INFO  18:14:28,691 - #23 MJProgram
+INFO  18:14:28,691 - #7 const
+INFO  18:14:28,693 - #23 int
+INFO  18:14:28,693 - #23 x
+INFO  18:14:28,694 - #37 =
+INFO  18:14:28,694 - #51 1
+INFO  18:14:28,695 - #42 ,
+INFO  18:14:28,696 - #23 y
+INFO  18:14:28,696 - #37 =
+INFO  18:14:28,696 - #52 'a'
+INFO  18:14:28,697 - #42 ,
+INFO  18:14:28,697 - #23 z
+INFO  18:14:28,698 - #37 =
+INFO  18:14:28,698 - #53 false
+INFO  18:14:28,698 - #40 ;
+INFO  18:14:28,698 - #23 int
+INFO  18:14:28,700 - #23 a
+INFO  18:14:28,700 - #42 ,
+INFO  18:14:28,704 - #23 b
+INFO  18:14:28,704 - #46 [
+INFO  18:14:28,704 - #47 ]
+INFO  18:14:28,705 - #42 ,
+INFO  18:14:28,706 - #23 c
+INFO  18:14:28,706 - #40 ;
+INFO  18:14:28,706 - #7 const
+INFO  18:14:28,708 - #23 int
+INFO  18:14:28,709 - #23 w
+INFO  18:14:28,709 - #37 =
+INFO  18:14:28,709 - #51 0
+INFO  18:14:28,709 - #40 ;
+INFO  18:14:28,709 - #23 int
+INFO  18:14:28,709 - #23 d
+INFO  18:14:28,709 - #40 ;
+INFO  18:14:28,709 - #4 class
+INFO  18:14:28,709 - #23 Klasa
+INFO  18:14:28,710 - #48 {
+INFO  18:14:28,711 - #23 int
+INFO  18:14:28,711 - #23 a1
+INFO  18:14:28,711 - #42 ,
+INFO  18:14:28,711 - #23 b1
+INFO  18:14:28,711 - #46 [
+INFO  18:14:28,711 - #47 ]
+INFO  18:14:28,711 - #42 ,
+INFO  18:14:28,712 - #23 c1
+INFO  18:14:28,712 - #40 ;
+INFO  18:14:28,712 - #49 }
+INFO  18:14:28,712 - #48 {
+INFO  18:14:28,714 - #49 }
+INFO  18:14:28,717 - Program(
+ MJProgram
+  DeclList3(
+    DeclList2(
+      DeclList1(
+        DeclList2(
+          DeclList1(
+            DeclList4(
+            ) [DeclList4]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             x
+              ConstOption1(
+               1
+              ) [ConstOption1]
+              ConstDeclList1(
+                ConstDeclList1(
+                  ConstDeclList2(
+                  ) [ConstDeclList2]
+                 y
+                  ConstOption2(
+                   'a'
+                  ) [ConstOption2]
+                ) [ConstDeclList1]
+               z
+                ConstOption3(
+                 false
+                ) [ConstOption3]
+              ) [ConstDeclList1]
+            ) [ConstDecl]
+          ) [DeclList1]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           a
+            SqrdOption2(
+            ) [SqrdOption2]
+            VarDeclList1(
+              VarDeclList1(
+                VarDeclList2(
+                ) [VarDeclList2]
+               b
+                SqrdOption1(
+                ) [SqrdOption1]
+              ) [VarDeclList1]
+             c
+              SqrdOption2(
+              ) [SqrdOption2]
+            ) [VarDeclList1]
+          ) [VarDecl]
+        ) [DeclList2]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+         w
+          ConstOption1(
+           0
+          ) [ConstOption1]
+          ConstDeclList2(
+          ) [ConstDeclList2]
+        ) [ConstDecl]
+      ) [DeclList1]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       d
+        SqrdOption2(
+        ) [SqrdOption2]
+        VarDeclList2(
+        ) [VarDeclList2]
+      ) [VarDecl]
+    ) [DeclList2]
+    ClassDecl(
+     Klasa
+      ExtendsOption2(
+      ) [ExtendsOption2]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       a1
+        SqrdOption2(
+        ) [SqrdOption2]
+        VarDeclList1(
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           b1
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+         c1
+          SqrdOption2(
+          ) [SqrdOption2]
+        ) [VarDeclList1]
+      ) [VarDecl]
+    ) [ClassDecl]
+  ) [DeclList3]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  18:14:28,718 - ===================================
+INFO  18:14:28,722 -  Print count calls = 0
+INFO  18:14:28,722 -  Deklarisanih promenljivih ima = 3

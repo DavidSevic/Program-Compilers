@@ -1,0 +1,28 @@
+INFO  19:34:27,780 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  19:34:27,848 - #2 program
+INFO  19:34:27,848 - #23 MJProgram
+INFO  19:34:27,848 - #7 const
+INFO  19:34:27,850 - #23 int
+INFO  19:34:27,850 - #23 z
+INFO  19:34:27,852 - #37 =
+INFO  19:34:27,852 - #40 ;
+INFO  19:34:27,852 - #48 {
+INFO  19:34:27,854 - #49 }
+INFO  19:34:27,858 - Program(
+ MJProgram
+  DeclList1(
+    DeclList2(
+    ) [DeclList2]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+     z
+    ) [ConstDecl]
+  ) [DeclList1]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  19:34:27,859 - ===================================
+INFO  19:34:27,863 -  Print count calls = 0
+INFO  19:34:27,863 -  Deklarisanih promenljivih ima = 0

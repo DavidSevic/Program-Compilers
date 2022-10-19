@@ -1,0 +1,189 @@
+INFO  20:50:31,543 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  20:50:31,667 - #2 program
+INFO  20:50:31,668 - #23 p
+INFO  20:50:31,668 - #23 int
+INFO  20:50:31,671 - #23 x
+INFO  20:50:31,673 - #42 ,
+INFO  20:50:31,675 - #23 y
+INFO  20:50:31,675 - #46 [
+INFO  20:50:31,675 - #47 ]
+INFO  20:50:31,675 - #42 ,
+INFO  20:50:31,677 - #23 z
+INFO  20:50:31,677 - #42 ,
+INFO  20:50:31,677 - #23 q
+INFO  20:50:31,677 - #42 ,
+INFO  20:50:31,677 - #23 o
+INFO  20:50:31,678 - #46 [
+INFO  20:50:31,678 - #47 ]
+INFO  20:50:31,678 - #42 ,
+INFO  20:50:31,678 - #23 f
+INFO  20:50:31,678 - #46 [
+INFO  20:50:31,678 - #47 ]
+INFO  20:50:31,679 - #42 ,
+INFO  20:50:31,679 - #23 g
+INFO  20:50:31,679 - #42 ,
+INFO  20:50:31,679 - #23 k
+INFO  20:50:31,679 - #42 ,
+INFO  20:50:31,680 - #23 c
+INFO  20:50:31,680 - #40 ;
+INFO  20:50:31,682 - #48 {
+INFO  20:50:31,684 - #15 void
+INFO  20:50:31,685 - #23 f
+INFO  20:50:31,687 - #44 (
+INFO  20:50:31,687 - #45 )
+INFO  20:50:31,689 - #23 char
+INFO  20:50:31,691 - #23 d
+INFO  20:50:31,691 - #42 ,
+INFO  20:50:31,691 - #23 q
+INFO  20:50:31,691 - #46 [
+INFO  20:50:31,691 - #47 ]
+INFO  20:50:31,691 - #40 ;
+INFO  20:50:31,693 - #48 {
+INFO  20:50:31,695 - #23 yy
+INFO  20:50:31,697 - #46 [
+INFO  20:50:31,699 - #51 1
+INFO  20:50:31,703 - #47 ]
+INFO  20:50:31,709 - #38 ++
+INFO  20:50:31,711 - #40 ;
+INFO  20:50:31,714 - #49 }
+INFO  20:50:31,715 - #49 }
+INFO  20:50:31,720 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList1(
+       y
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList1(
+         z
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList1(
+           q
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            GlobVarDeclList1(
+             o
+              SqrdOptionVar1(
+              ) [SqrdOptionVar1]
+              GlobVarDeclList1(
+               f
+                SqrdOptionVar1(
+                ) [SqrdOptionVar1]
+                GlobVarDeclList1(
+                 g
+                  SqrdOptionVar2(
+                  ) [SqrdOptionVar2]
+                  GlobVarDeclList1(
+                   k
+                    SqrdOptionVar2(
+                    ) [SqrdOptionVar2]
+                    GlobVarDeclList1(
+                     c
+                      SqrdOptionVar2(
+                      ) [SqrdOptionVar2]
+                      GlobVarDeclList2(
+                      ) [GlobVarDeclList2]
+                    ) [GlobVarDeclList1]
+                  ) [GlobVarDeclList1]
+                ) [GlobVarDeclList1]
+              ) [GlobVarDeclList1]
+            ) [GlobVarDeclList1]
+          ) [GlobVarDeclList1]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         d
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          VarDeclList1(
+           q
+            SqrdOptionVar1(
+            ) [SqrdOptionVar1]
+            VarDeclList2(
+            ) [VarDeclList2]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement1(
+            DesignatorStatement(
+              Designator(
+               yy
+                DesignatorList2(
+                  DesignatorList3(
+                  ) [DesignatorList3]
+                  Expr(
+                    MinusOption2(
+                    ) [MinusOption2]
+                    Term(
+                      Factor3(
+                       1
+                      ) [Factor3]
+                      MulopFactorList2(
+                      ) [MulopFactorList2]
+                    ) [Term]
+                    AddopTermList2(
+                    ) [AddopTermList2]
+                  ) [Expr]
+                ) [DesignatorList2]
+              ) [Designator]
+              DesignatorStmtOptions3(
+              ) [DesignatorStmtOptions3]
+            ) [DesignatorStatement]
+          ) [SingleStatement1]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  20:50:31,725 - ===================================
+ERROR 20:50:31,741 - Greska: Nije pronadjen tip int u tabeli simbola! 
+INFO  20:50:31,742 - Deklarisana globalna promenljiva x na liniji 3
+INFO  20:50:31,742 - Deklarisan globalni niz y na liniji 3
+INFO  20:50:31,742 - Deklarisana globalna promenljiva z na liniji 3
+INFO  20:50:31,742 - Deklarisana globalna promenljiva q na liniji 3
+INFO  20:50:31,742 - Deklarisan globalni niz o na liniji 3
+INFO  20:50:31,743 - Deklarisan globalni niz f na liniji 3
+INFO  20:50:31,743 - Deklarisana globalna promenljiva g na liniji 3
+INFO  20:50:31,743 - Deklarisana globalna promenljiva k na liniji 3
+INFO  20:50:31,743 - Deklarisana globalna promenljiva c na liniji 3
+ERROR 20:50:31,743 - Greska: Nije pronadjen tip char u tabeli simbola! 
+INFO  20:50:31,743 - Deklarisana lokalna promenljiva d na liniji 6
+ERROR 20:50:31,744 - Greska: Element sa imenom: q je vec deklarisan! 
+INFO  20:50:31,744 - Niz adresiran sa izrazom koji je ceo broj na liniji 2
+ERROR 20:50:31,744 - Greska: Element yy nije deklarisan! na liniji 8
+INFO  20:50:31,744 -  Print count calls = 0
+INFO  20:50:31,745 -  Deklarisanih lokalnih promenljivih ima = 1
+INFO  20:50:31,745 -  Deklarisanih globalnih promenljivih ima = 6

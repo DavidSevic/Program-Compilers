@@ -1,0 +1,141 @@
+INFO  10:48:44,708 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  10:48:44,943 - #2 program
+INFO  10:48:44,945 - #23 p
+INFO  10:48:44,945 - #23 int
+INFO  10:48:44,948 - #23 x
+INFO  10:48:44,950 - #42 ,
+INFO  10:48:44,954 - #23 arr
+INFO  10:48:44,954 - #46 [
+INFO  10:48:44,958 - #47 ]
+INFO  10:48:44,958 - #40 ;
+INFO  10:48:44,972 - #23 char
+INFO  10:48:44,981 - #23 y
+INFO  10:48:44,981 - #40 ;
+INFO  10:48:44,981 - #48 {
+INFO  10:48:44,982 - #15 void
+INFO  10:48:44,985 - #23 main
+INFO  10:48:44,985 - #44 (
+INFO  10:48:44,991 - #45 )
+INFO  10:48:44,995 - #48 {
+INFO  10:48:44,997 - #23 arr
+INFO  10:48:44,998 - #37 =
+INFO  10:48:45,006 - #11 new
+INFO  10:48:45,017 - #23 int
+INFO  10:48:45,017 - #46 [
+INFO  10:48:45,018 - #51 99
+INFO  10:48:45,020 - #47 ]
+INFO  10:48:45,030 - #40 ;
+INFO  10:48:45,034 - #49 }
+INFO  10:48:45,035 - #49 }
+INFO  10:48:45,072 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList1(
+         arr
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement1(
+            DesignatorStatement(
+              Designator(
+                DesignatorIdent(
+                 arr
+                ) [DesignatorIdent]
+                DesignatorList3(
+                ) [DesignatorList3]
+              ) [Designator]
+              DesignatorStmtOptions1(
+                Assignop(
+                ) [Assignop]
+                Expr(
+                  MinusOption2(
+                  ) [MinusOption2]
+                  Term(
+                    Factor7(
+                      Type(
+                       int
+                      ) [Type]
+                      LSQRDhelp(
+                      ) [LSQRDhelp]
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           99
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [Factor7]
+                    MulopFactorList2(
+                    ) [MulopFactorList2]
+                  ) [Term]
+                  AddopTermList2(
+                  ) [AddopTermList2]
+                ) [Expr]
+              ) [DesignatorStmtOptions1]
+            ) [DesignatorStatement]
+          ) [SingleStatement1]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  10:48:45,074 - ===================================
+INFO  10:48:45,101 - Deklarisana globalna promenljiva x na liniji 3
+INFO  10:48:45,101 - Deklarisan globalni niz arr na liniji 3
+INFO  10:48:45,102 - Deklarisana globalna promenljiva y na liniji 4
+INFO  10:48:45,104 - METODA main IMA 0 PARAMETARA na liniji 17
+INFO  10:48:45,104 - NEMA
+INFO  10:48:45,104 -  Print count calls = 0
+INFO  10:48:45,104 -  Deklarisanih konstanti ima = 0
+INFO  10:48:45,104 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  10:48:45,105 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  10:48:45,105 - ===================================
+INFO  10:48:45,203 - Parsiranje uspesno zavrseno!

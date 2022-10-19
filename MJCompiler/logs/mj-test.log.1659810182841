@@ -1,0 +1,661 @@
+INFO  20:20:29,232 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  20:20:29,383 - #2 program
+INFO  20:20:29,383 - #23 p
+INFO  20:20:29,383 - #23 int
+INFO  20:20:29,387 - #23 x
+INFO  20:20:29,389 - #42 ,
+INFO  20:20:29,392 - #23 arr
+INFO  20:20:29,392 - #46 [
+INFO  20:20:29,392 - #47 ]
+INFO  20:20:29,392 - #40 ;
+INFO  20:20:29,396 - #23 char
+INFO  20:20:29,398 - #23 y
+INFO  20:20:29,398 - #40 ;
+INFO  20:20:29,399 - #48 {
+INFO  20:20:29,399 - #23 int
+INFO  20:20:29,401 - #23 k
+INFO  20:20:29,401 - #44 (
+INFO  20:20:29,403 - #45 )
+INFO  20:20:29,405 - #23 int
+INFO  20:20:29,407 - #23 c
+INFO  20:20:29,407 - #40 ;
+INFO  20:20:29,409 - #48 {
+INFO  20:20:29,411 - #23 c
+INFO  20:20:29,414 - #37 =
+INFO  20:20:29,419 - #51 100
+INFO  20:20:29,424 - #40 ;
+INFO  20:20:29,431 - #12 print
+INFO  20:20:29,432 - #44 (
+INFO  20:20:29,433 - #51 0
+INFO  20:20:29,433 - #45 )
+INFO  20:20:29,433 - #40 ;
+INFO  20:20:29,433 - #14 return
+INFO  20:20:29,434 - #23 c
+INFO  20:20:29,436 - #24 +
+INFO  20:20:29,437 - #23 x
+INFO  20:20:29,440 - #40 ;
+INFO  20:20:29,440 - #49 }
+INFO  20:20:29,442 - #15 void
+INFO  20:20:29,443 - #23 main
+INFO  20:20:29,443 - #44 (
+INFO  20:20:29,445 - #45 )
+INFO  20:20:29,445 - #48 {
+INFO  20:20:29,445 - #23 x
+INFO  20:20:29,445 - #37 =
+INFO  20:20:29,446 - #51 3
+INFO  20:20:29,446 - #40 ;
+INFO  20:20:29,446 - #12 print
+INFO  20:20:29,446 - #44 (
+INFO  20:20:29,446 - #23 x
+INFO  20:20:29,446 - #45 )
+INFO  20:20:29,446 - #40 ;
+INFO  20:20:29,447 - #23 x
+INFO  20:20:29,447 - #38 ++
+INFO  20:20:29,447 - #40 ;
+INFO  20:20:29,449 - #12 print
+INFO  20:20:29,449 - #44 (
+INFO  20:20:29,450 - #23 x
+INFO  20:20:29,450 - #45 )
+INFO  20:20:29,450 - #40 ;
+INFO  20:20:29,451 - #23 x
+INFO  20:20:29,451 - #39 --
+INFO  20:20:29,451 - #40 ;
+INFO  20:20:29,454 - #12 print
+INFO  20:20:29,458 - #44 (
+INFO  20:20:29,460 - #23 x
+INFO  20:20:29,461 - #45 )
+INFO  20:20:29,461 - #40 ;
+INFO  20:20:29,461 - #23 arr
+INFO  20:20:29,461 - #37 =
+INFO  20:20:29,468 - #11 new
+INFO  20:20:29,468 - #23 int
+INFO  20:20:29,468 - #46 [
+INFO  20:20:29,468 - #51 2
+INFO  20:20:29,469 - #47 ]
+INFO  20:20:29,469 - #40 ;
+INFO  20:20:29,469 - #23 arr
+INFO  20:20:29,469 - #46 [
+INFO  20:20:29,469 - #51 0
+INFO  20:20:29,470 - #47 ]
+INFO  20:20:29,470 - #37 =
+INFO  20:20:29,470 - #51 98
+INFO  20:20:29,470 - #40 ;
+INFO  20:20:29,470 - #23 arr
+INFO  20:20:29,471 - #46 [
+INFO  20:20:29,471 - #51 1
+INFO  20:20:29,471 - #47 ]
+INFO  20:20:29,471 - #37 =
+INFO  20:20:29,471 - #51 100
+INFO  20:20:29,471 - #40 ;
+INFO  20:20:29,471 - #23 arr
+INFO  20:20:29,471 - #46 [
+INFO  20:20:29,472 - #51 0
+INFO  20:20:29,472 - #47 ]
+INFO  20:20:29,472 - #38 ++
+INFO  20:20:29,472 - #40 ;
+INFO  20:20:29,472 - #12 print
+INFO  20:20:29,472 - #44 (
+INFO  20:20:29,472 - #23 arr
+INFO  20:20:29,472 - #46 [
+INFO  20:20:29,473 - #51 0
+INFO  20:20:29,473 - #47 ]
+INFO  20:20:29,473 - #45 )
+INFO  20:20:29,473 - #40 ;
+INFO  20:20:29,473 - #49 }
+INFO  20:20:29,473 - #49 }
+INFO  20:20:29,499 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList1(
+         arr
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl1(
+        TypeIdentMeth(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [TypeIdentMeth]
+        FormParsOption2(
+        ) [FormParsOption2]
+        VarDeclOption1(
+          VarDeclOption2(
+          ) [VarDeclOption2]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           c
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            VarDeclList2(
+            ) [VarDeclList2]
+          ) [VarDecl]
+        ) [VarDeclOption1]
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList2(
+              ) [StatementList2]
+              Statement2(
+                SingleStatement1(
+                  DesignatorStatement(
+                    Designator(
+                      DesignatorIdent(
+                       c
+                      ) [DesignatorIdent]
+                      DesignatorList3(
+                      ) [DesignatorList3]
+                    ) [Designator]
+                    DesignatorStmtOptions1(
+                      Assignop(
+                      ) [Assignop]
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           100
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [DesignatorStmtOptions1]
+                  ) [DesignatorStatement]
+                ) [SingleStatement1]
+              ) [Statement2]
+            ) [StatementList1]
+            Statement2(
+              SingleStatement9(
+                Expr(
+                  MinusOption2(
+                  ) [MinusOption2]
+                  Term(
+                    Factor3(
+                     0
+                    ) [Factor3]
+                    MulopFactorList2(
+                    ) [MulopFactorList2]
+                  ) [Term]
+                  AddopTermList2(
+                  ) [AddopTermList2]
+                ) [Expr]
+              ) [SingleStatement9]
+            ) [Statement2]
+          ) [StatementList1]
+          Statement2(
+            SingleStatement7(
+              RETURNhelp(
+              ) [RETURNhelp]
+              Expr(
+                MinusOption2(
+                ) [MinusOption2]
+                Term(
+                  Factor1(
+                    Designator(
+                      DesignatorIdent(
+                       c
+                      ) [DesignatorIdent]
+                      DesignatorList3(
+                      ) [DesignatorList3]
+                    ) [Designator]
+                  ) [Factor1]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+                AddopTermList1(
+                  AddopTermList2(
+                  ) [AddopTermList2]
+                  Addop1(
+                  ) [Addop1]
+                  Term(
+                    Factor1(
+                      Designator(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                        DesignatorList3(
+                        ) [DesignatorList3]
+                      ) [Designator]
+                    ) [Factor1]
+                    MulopFactorList2(
+                    ) [MulopFactorList2]
+                  ) [Term]
+                ) [AddopTermList1]
+              ) [Expr]
+              SEMIhelp(
+              ) [SEMIhelp]
+            ) [SingleStatement7]
+          ) [Statement2]
+        ) [StatementList1]
+      ) [MethodDecl1]
+    ) [MethodDeclList1]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList1(
+              StatementList1(
+                StatementList1(
+                  StatementList1(
+                    StatementList1(
+                      StatementList1(
+                        StatementList1(
+                          StatementList1(
+                            StatementList2(
+                            ) [StatementList2]
+                            Statement2(
+                              SingleStatement1(
+                                DesignatorStatement(
+                                  Designator(
+                                    DesignatorIdent(
+                                     x
+                                    ) [DesignatorIdent]
+                                    DesignatorList3(
+                                    ) [DesignatorList3]
+                                  ) [Designator]
+                                  DesignatorStmtOptions1(
+                                    Assignop(
+                                    ) [Assignop]
+                                    Expr(
+                                      MinusOption2(
+                                      ) [MinusOption2]
+                                      Term(
+                                        Factor3(
+                                         3
+                                        ) [Factor3]
+                                        MulopFactorList2(
+                                        ) [MulopFactorList2]
+                                      ) [Term]
+                                      AddopTermList2(
+                                      ) [AddopTermList2]
+                                    ) [Expr]
+                                  ) [DesignatorStmtOptions1]
+                                ) [DesignatorStatement]
+                              ) [SingleStatement1]
+                            ) [Statement2]
+                          ) [StatementList1]
+                          Statement2(
+                            SingleStatement9(
+                              Expr(
+                                MinusOption2(
+                                ) [MinusOption2]
+                                Term(
+                                  Factor1(
+                                    Designator(
+                                      DesignatorIdent(
+                                       x
+                                      ) [DesignatorIdent]
+                                      DesignatorList3(
+                                      ) [DesignatorList3]
+                                    ) [Designator]
+                                  ) [Factor1]
+                                  MulopFactorList2(
+                                  ) [MulopFactorList2]
+                                ) [Term]
+                                AddopTermList2(
+                                ) [AddopTermList2]
+                              ) [Expr]
+                            ) [SingleStatement9]
+                          ) [Statement2]
+                        ) [StatementList1]
+                        Statement2(
+                          SingleStatement1(
+                            DesignatorStatement(
+                              Designator(
+                                DesignatorIdent(
+                                 x
+                                ) [DesignatorIdent]
+                                DesignatorList3(
+                                ) [DesignatorList3]
+                              ) [Designator]
+                              DesignatorStmtOptions3(
+                              ) [DesignatorStmtOptions3]
+                            ) [DesignatorStatement]
+                          ) [SingleStatement1]
+                        ) [Statement2]
+                      ) [StatementList1]
+                      Statement2(
+                        SingleStatement9(
+                          Expr(
+                            MinusOption2(
+                            ) [MinusOption2]
+                            Term(
+                              Factor1(
+                                Designator(
+                                  DesignatorIdent(
+                                   x
+                                  ) [DesignatorIdent]
+                                  DesignatorList3(
+                                  ) [DesignatorList3]
+                                ) [Designator]
+                              ) [Factor1]
+                              MulopFactorList2(
+                              ) [MulopFactorList2]
+                            ) [Term]
+                            AddopTermList2(
+                            ) [AddopTermList2]
+                          ) [Expr]
+                        ) [SingleStatement9]
+                      ) [Statement2]
+                    ) [StatementList1]
+                    Statement2(
+                      SingleStatement1(
+                        DesignatorStatement(
+                          Designator(
+                            DesignatorIdent(
+                             x
+                            ) [DesignatorIdent]
+                            DesignatorList3(
+                            ) [DesignatorList3]
+                          ) [Designator]
+                          DesignatorStmtOptions4(
+                          ) [DesignatorStmtOptions4]
+                        ) [DesignatorStatement]
+                      ) [SingleStatement1]
+                    ) [Statement2]
+                  ) [StatementList1]
+                  Statement2(
+                    SingleStatement9(
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor1(
+                            Designator(
+                              DesignatorIdent(
+                               x
+                              ) [DesignatorIdent]
+                              DesignatorList3(
+                              ) [DesignatorList3]
+                            ) [Designator]
+                          ) [Factor1]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [SingleStatement9]
+                  ) [Statement2]
+                ) [StatementList1]
+                Statement2(
+                  SingleStatement1(
+                    DesignatorStatement(
+                      Designator(
+                        DesignatorIdent(
+                         arr
+                        ) [DesignatorIdent]
+                        DesignatorList3(
+                        ) [DesignatorList3]
+                      ) [Designator]
+                      DesignatorStmtOptions1(
+                        Assignop(
+                        ) [Assignop]
+                        Expr(
+                          MinusOption2(
+                          ) [MinusOption2]
+                          Term(
+                            Factor7(
+                              Type(
+                               int
+                              ) [Type]
+                              Expr(
+                                MinusOption2(
+                                ) [MinusOption2]
+                                Term(
+                                  Factor3(
+                                   2
+                                  ) [Factor3]
+                                  MulopFactorList2(
+                                  ) [MulopFactorList2]
+                                ) [Term]
+                                AddopTermList2(
+                                ) [AddopTermList2]
+                              ) [Expr]
+                            ) [Factor7]
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                          ) [Term]
+                          AddopTermList2(
+                          ) [AddopTermList2]
+                        ) [Expr]
+                      ) [DesignatorStmtOptions1]
+                    ) [DesignatorStatement]
+                  ) [SingleStatement1]
+                ) [Statement2]
+              ) [StatementList1]
+              Statement2(
+                SingleStatement1(
+                  DesignatorStatement(
+                    Designator(
+                      DesignatorIdent(
+                       arr
+                      ) [DesignatorIdent]
+                      DesignatorList2(
+                        DesignatorList3(
+                        ) [DesignatorList3]
+                        Expr(
+                          MinusOption2(
+                          ) [MinusOption2]
+                          Term(
+                            Factor3(
+                             0
+                            ) [Factor3]
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                          ) [Term]
+                          AddopTermList2(
+                          ) [AddopTermList2]
+                        ) [Expr]
+                      ) [DesignatorList2]
+                    ) [Designator]
+                    DesignatorStmtOptions1(
+                      Assignop(
+                      ) [Assignop]
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           98
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [DesignatorStmtOptions1]
+                  ) [DesignatorStatement]
+                ) [SingleStatement1]
+              ) [Statement2]
+            ) [StatementList1]
+            Statement2(
+              SingleStatement1(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorIdent(
+                     arr
+                    ) [DesignatorIdent]
+                    DesignatorList2(
+                      DesignatorList3(
+                      ) [DesignatorList3]
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           1
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [DesignatorList2]
+                  ) [Designator]
+                  DesignatorStmtOptions1(
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      MinusOption2(
+                      ) [MinusOption2]
+                      Term(
+                        Factor3(
+                         100
+                        ) [Factor3]
+                        MulopFactorList2(
+                        ) [MulopFactorList2]
+                      ) [Term]
+                      AddopTermList2(
+                      ) [AddopTermList2]
+                    ) [Expr]
+                  ) [DesignatorStmtOptions1]
+                ) [DesignatorStatement]
+              ) [SingleStatement1]
+            ) [Statement2]
+          ) [StatementList1]
+          Statement2(
+            SingleStatement1(
+              DesignatorStatement(
+                Designator(
+                  DesignatorIdent(
+                   arr
+                  ) [DesignatorIdent]
+                  DesignatorList2(
+                    DesignatorList3(
+                    ) [DesignatorList3]
+                    Expr(
+                      MinusOption2(
+                      ) [MinusOption2]
+                      Term(
+                        Factor3(
+                         0
+                        ) [Factor3]
+                        MulopFactorList2(
+                        ) [MulopFactorList2]
+                      ) [Term]
+                      AddopTermList2(
+                      ) [AddopTermList2]
+                    ) [Expr]
+                  ) [DesignatorList2]
+                ) [Designator]
+                DesignatorStmtOptions3(
+                ) [DesignatorStmtOptions3]
+              ) [DesignatorStatement]
+            ) [SingleStatement1]
+          ) [Statement2]
+        ) [StatementList1]
+        Statement2(
+          SingleStatement9(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor1(
+                  Designator(
+                    DesignatorIdent(
+                     arr
+                    ) [DesignatorIdent]
+                    DesignatorList2(
+                      DesignatorList3(
+                      ) [DesignatorList3]
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           0
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [DesignatorList2]
+                  ) [Designator]
+                ) [Factor1]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+          ) [SingleStatement9]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  20:20:29,502 - ===================================
+INFO  20:20:29,513 - Deklarisana globalna promenljiva x na liniji 3
+INFO  20:20:29,516 - Deklarisan globalni niz arr na liniji 3
+INFO  20:20:29,516 - Deklarisana globalna promenljiva y na liniji 4
+INFO  20:20:29,516 - Deklarisana lokalna promenljiva c na liniji 8
+INFO  20:20:29,519 - METODA k IMA 0 PARAMETARA na liniji 8
+INFO  20:20:29,519 - Za adresiranje koriscen izraz koji je ceo broj na liniji 2
+INFO  20:20:29,520 - Pristup nizu arr na liniji 33
+INFO  20:20:29,522 - URADIOOOOOOOOOOOOOOOOOOOOOOOOO
+INFO  20:20:29,523 - Za adresiranje koriscen izraz koji je ceo broj na liniji 2
+INFO  20:20:29,523 - Pristup nizu arr na liniji 35
+INFO  20:20:29,523 - URADIOOOOOOOOOOOOOOOOOOOOOOOOO
+INFO  20:20:29,523 - Za adresiranje koriscen izraz koji je ceo broj na liniji 2
+INFO  20:20:29,524 - Pristup nizu arr na liniji 37
+INFO  20:20:29,524 - URADIOOOOOOOOOOOOOOOOOOOOOOOOO
+INFO  20:20:29,524 - Za adresiranje koriscen izraz koji je ceo broj na liniji 8
+INFO  20:20:29,524 - Pristup nizu arr na liniji 39
+INFO  20:20:29,524 - URADIOOOOOOOOOOOOOOOOOOOOOOOOO
+INFO  20:20:29,525 - METODA main IMA 0 PARAMETARA na liniji 17
+INFO  20:20:29,525 - NEMA
+INFO  20:20:29,525 -  Print count calls = 5
+INFO  20:20:29,525 -  Deklarisanih konstanti ima = 0
+INFO  20:20:29,525 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  20:20:29,526 -  Deklarisanih lokalnih promenljivih ima = 1
+INFO  20:20:29,526 - ===================================
+INFO  20:20:29,551 - Parsiranje uspesno zavrseno!

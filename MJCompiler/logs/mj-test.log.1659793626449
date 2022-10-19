@@ -1,0 +1,126 @@
+INFO  15:42:39,655 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  15:42:39,832 - #2 program
+INFO  15:42:39,833 - #23 p
+INFO  15:42:39,833 - #23 int
+INFO  15:42:39,838 - #23 x
+INFO  15:42:39,840 - #40 ;
+INFO  15:42:39,846 - #23 char
+INFO  15:42:39,849 - #23 y
+INFO  15:42:39,849 - #40 ;
+INFO  15:42:39,850 - #48 {
+INFO  15:42:39,850 - #23 int
+INFO  15:42:39,853 - #23 k
+INFO  15:42:39,854 - #44 (
+INFO  15:42:39,865 - #45 )
+INFO  15:42:39,867 - #48 {
+INFO  15:42:39,869 - #49 }
+INFO  15:42:39,872 - #15 void
+INFO  15:42:39,874 - #23 main
+INFO  15:42:39,874 - #44 (
+INFO  15:42:39,878 - #45 )
+INFO  15:42:39,878 - #48 {
+INFO  15:42:39,878 - #23 k
+INFO  15:42:39,879 - #44 (
+INFO  15:42:39,885 - #45 )
+INFO  15:42:39,898 - #40 ;
+INFO  15:42:39,907 - #49 }
+INFO  15:42:39,908 - #49 }
+INFO  15:42:39,941 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl1(
+        TypeIdentMeth(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [TypeIdentMeth]
+        FormParsOption2(
+        ) [FormParsOption2]
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        StatementList2(
+        ) [StatementList2]
+      ) [MethodDecl1]
+    ) [MethodDeclList1]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement1(
+            DesignatorStatement(
+              Designator(
+                DesignatorIdent(
+                 k
+                ) [DesignatorIdent]
+                DesignatorList3(
+                ) [DesignatorList3]
+              ) [Designator]
+              DesignatorStmtOptions2(
+                LPARENpars(
+                ) [LPARENpars]
+                ActParsOption2(
+                ) [ActParsOption2]
+                RPARENpars(
+                ) [RPARENpars]
+              ) [DesignatorStmtOptions2]
+            ) [DesignatorStatement]
+          ) [SingleStatement1]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:42:39,943 - ===================================
+INFO  15:42:39,988 - Deklarisana globalna promenljiva x na liniji 3
+INFO  15:42:39,988 - Deklarisana globalna promenljiva y na liniji 4
+ERROR 15:42:39,989 - Greska: Metoda ciji povratni tip nije void, mora imati odgovarajucu return naredbu! na liniji 8
+INFO  15:42:39,990 - METODA k IMA 0 PARAMETARA na liniji 8
+INFO  15:42:39,990 - Poziv funckije:  k na liniji 24
+INFO  15:42:39,990 - METODA main IMA 0 PARAMETARA na liniji 10
+INFO  15:42:39,990 - NEMA
+INFO  15:42:39,991 -  Print count calls = 0
+INFO  15:42:39,991 -  Deklarisanih konstanti ima = 0
+INFO  15:42:39,991 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  15:42:39,991 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  15:42:39,991 - ===================================
+ERROR 15:42:39,993 - Parsiranje NIJE uspesno zavrseno!

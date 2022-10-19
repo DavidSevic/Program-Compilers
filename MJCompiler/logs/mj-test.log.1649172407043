@@ -1,0 +1,73 @@
+INFO  17:24:44,949 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  17:24:45,011 - #2 program
+INFO  17:24:45,011 - #23 MJProgram
+INFO  17:24:45,011 - #7 const
+INFO  17:24:45,013 - #23 int
+INFO  17:24:45,013 - #23 x
+INFO  17:24:45,014 - #37 =
+INFO  17:24:45,015 - #51 1
+INFO  17:24:45,015 - #42 ,
+INFO  17:24:45,016 - #23 y
+INFO  17:24:45,016 - #37 =
+INFO  17:24:45,016 - #52 'a'
+INFO  17:24:45,016 - #42 ,
+INFO  17:24:45,017 - #23 z
+INFO  17:24:45,017 - #37 =
+INFO  17:24:45,017 - #53 false
+INFO  17:24:45,017 - #40 ;
+INFO  17:24:45,018 - #7 const
+INFO  17:24:45,019 - #23 double
+INFO  17:24:45,020 - #23 a
+INFO  17:24:45,020 - #37 =
+INFO  17:24:45,020 - #51 5
+INFO  17:24:45,020 - #40 ;
+INFO  17:24:45,020 - #48 {
+INFO  17:24:45,020 - #49 }
+INFO  17:24:45,024 - Program(
+ MJProgram
+  DeclList1(
+    DeclList1(
+      DeclList2(
+      ) [DeclList2]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        ConstOption1(
+         1
+        ) [ConstOption1]
+        ConstDeclList1(
+          ConstDeclList1(
+            ConstDeclList2(
+            ) [ConstDeclList2]
+           y
+            ConstOption2(
+             'a'
+            ) [ConstOption2]
+          ) [ConstDeclList1]
+         z
+          ConstOption3(
+           false
+          ) [ConstOption3]
+        ) [ConstDeclList1]
+      ) [ConstDecl]
+    ) [DeclList1]
+    ConstDecl(
+      Type(
+       double
+      ) [Type]
+     a
+      ConstOption1(
+       5
+      ) [ConstOption1]
+      ConstDeclList2(
+      ) [ConstDeclList2]
+    ) [ConstDecl]
+  ) [DeclList1]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:24:45,025 - ===================================
+INFO  17:24:45,028 -  Print count calls = 0
+INFO  17:24:45,028 -  Deklarisanih promenljivih ima = 0

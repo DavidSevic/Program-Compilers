@@ -1,0 +1,98 @@
+INFO  20:14:52,106 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  20:14:52,383 - #2 program
+INFO  20:14:52,383 - #23 test301
+INFO  20:14:52,384 - #7 const
+INFO  20:14:52,391 - #23 int
+INFO  20:14:52,391 - #23 nula
+INFO  20:14:52,393 - #37 =
+INFO  20:14:52,394 - #51 0
+INFO  20:14:52,394 - #42 ,
+INFO  20:14:52,394 - #23 c1
+INFO  20:14:52,395 - #37 =
+INFO  20:14:52,395 - #51 2
+INFO  20:14:52,395 - #42 ,
+INFO  20:14:52,395 - #23 c2
+INFO  20:14:52,396 - #37 =
+INFO  20:14:52,396 - #52 'a'
+INFO  20:14:52,396 - #42 ,
+INFO  20:14:52,396 - #23 c3
+INFO  20:14:52,397 - #37 =
+INFO  20:14:52,397 - #53 false
+INFO  20:14:52,397 - #42 ,
+INFO  20:14:52,398 - #23 c4
+INFO  20:14:52,398 - #37 =
+INFO  20:14:52,398 - #51 5
+INFO  20:14:52,399 - #40 ;
+INFO  20:14:52,411 - #48 {
+INFO  20:14:52,414 - #49 }
+INFO  20:14:52,443 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclList1(
+    DeclList5(
+    ) [DeclList5]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+     nula
+      ConstOption1(
+       0
+      ) [ConstOption1]
+      ConstDeclList1(
+       c1
+        ConstOption1(
+         2
+        ) [ConstOption1]
+        ConstDeclList1(
+         c2
+          ConstOption2(
+           'a'
+          ) [ConstOption2]
+          ConstDeclList1(
+           c3
+            ConstOption3(
+             false
+            ) [ConstOption3]
+            ConstDeclList1(
+             c4
+              ConstOption1(
+               5
+              ) [ConstOption1]
+              ConstDeclList2(
+              ) [ConstDeclList2]
+            ) [ConstDeclList1]
+          ) [ConstDeclList1]
+        ) [ConstDeclList1]
+      ) [ConstDeclList1]
+    ) [ConstDecl]
+  ) [DeclList1]
+  MethodDeclList2(
+  ) [MethodDeclList2]
+) [Program]
+INFO  20:14:52,444 - ===================================
+INFO  20:14:52,497 - varNames size: 5, constTypes size: 5 na liniji 5
+INFO  20:14:52,498 - ime: nula na liniji 5
+INFO  20:14:52,499 - ime: c1 na liniji 5
+INFO  20:14:52,499 - ime: c2 na liniji 5
+INFO  20:14:52,499 - ime: c3 na liniji 5
+INFO  20:14:52,499 - ime: c4 na liniji 5
+INFO  20:14:52,499 - tip: 1 na liniji 5
+INFO  20:14:52,499 - tip: 1 na liniji 5
+INFO  20:14:52,499 - tip: 2 na liniji 5
+INFO  20:14:52,499 - tip: 5 na liniji 5
+INFO  20:14:52,500 - tip: 1 na liniji 5
+INFO  20:14:52,500 - Deklarisana konstanta nula na liniji 5
+INFO  20:14:52,500 - Deklarisana konstanta c1 na liniji 5
+ERROR 20:14:52,500 - Greska: Konstanta sa imenom: c2 nije odgovarajuceg tipa!  na liniji 5
+ERROR 20:14:52,500 - Greska: Konstanta sa imenom: c3 nije odgovarajuceg tipa!  na liniji 5
+INFO  20:14:52,501 - Deklarisana konstanta c4 na liniji 5
+INFO  20:14:52,501 - NEMA
+ERROR 20:14:52,501 - Greska: Program mora imati main metodu!
+INFO  20:14:52,501 -  Print count calls = 0
+INFO  20:14:52,501 -  Deklarisanih konstanti ima = 5
+INFO  20:14:52,502 -  Deklarisanih globalnih promenljivih ima = 0
+INFO  20:14:52,502 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  20:14:52,502 - ===================================
+ERROR 20:14:52,506 - Parsiranje NIJE uspesno zavrseno!

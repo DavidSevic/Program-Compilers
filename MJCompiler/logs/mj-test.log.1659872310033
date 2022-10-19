@@ -1,0 +1,194 @@
+INFO  13:36:22,266 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  13:36:22,550 - #2 program
+INFO  13:36:22,550 - #23 p
+INFO  13:36:22,550 - #23 int
+INFO  13:36:22,556 - #23 x
+INFO  13:36:22,558 - #42 ,
+INFO  13:36:22,561 - #23 arr
+INFO  13:36:22,561 - #46 [
+INFO  13:36:22,561 - #47 ]
+INFO  13:36:22,562 - #40 ;
+INFO  13:36:22,566 - #23 char
+INFO  13:36:22,569 - #23 y
+INFO  13:36:22,569 - #40 ;
+INFO  13:36:22,569 - #48 {
+INFO  13:36:22,570 - #15 void
+INFO  13:36:22,572 - #23 main
+INFO  13:36:22,573 - #44 (
+INFO  13:36:22,576 - #45 )
+INFO  13:36:22,578 - #48 {
+INFO  13:36:22,580 - #23 x
+INFO  13:36:22,582 - #37 =
+INFO  13:36:22,586 - #51 3
+INFO  13:36:22,590 - #24 +
+INFO  13:36:22,598 - #51 2
+INFO  13:36:22,601 - #26 *
+INFO  13:36:22,602 - #51 3
+INFO  13:36:22,605 - #25 -
+INFO  13:36:22,607 - #51 2
+INFO  13:36:22,609 - #26 *
+INFO  13:36:22,609 - #51 1
+INFO  13:36:22,609 - #40 ;
+INFO  13:36:22,614 - #12 print
+INFO  13:36:22,616 - #44 (
+INFO  13:36:22,616 - #23 x
+INFO  13:36:22,616 - #45 )
+INFO  13:36:22,617 - #40 ;
+INFO  13:36:22,617 - #49 }
+INFO  13:36:22,617 - #49 }
+INFO  13:36:22,665 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList1(
+         arr
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement1(
+              DesignatorStatement(
+                Designator(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  DesignatorList3(
+                  ) [DesignatorList3]
+                ) [Designator]
+                DesignatorStmtOptions1(
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    MinusOption2(
+                    ) [MinusOption2]
+                    Term(
+                      Factor3(
+                       3
+                      ) [Factor3]
+                      MulopFactorList2(
+                      ) [MulopFactorList2]
+                    ) [Term]
+                    AddopTermList1(
+                      AddopTermList1(
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                        Addop1(
+                        ) [Addop1]
+                        Term(
+                          Factor3(
+                           2
+                          ) [Factor3]
+                          MulopFactorList1(
+                            MulopFactorList2(
+                            ) [MulopFactorList2]
+                            Mulop1(
+                            ) [Mulop1]
+                            Factor3(
+                             3
+                            ) [Factor3]
+                          ) [MulopFactorList1]
+                        ) [Term]
+                      ) [AddopTermList1]
+                      Addop2(
+                      ) [Addop2]
+                      Term(
+                        Factor3(
+                         2
+                        ) [Factor3]
+                        MulopFactorList1(
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                          Mulop1(
+                          ) [Mulop1]
+                          Factor3(
+                           1
+                          ) [Factor3]
+                        ) [MulopFactorList1]
+                      ) [Term]
+                    ) [AddopTermList1]
+                  ) [Expr]
+                ) [DesignatorStmtOptions1]
+              ) [DesignatorStatement]
+            ) [SingleStatement1]
+          ) [Statement2]
+        ) [StatementList1]
+        Statement2(
+          SingleStatement9(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor1(
+                  Designator(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    DesignatorList3(
+                    ) [DesignatorList3]
+                  ) [Designator]
+                ) [Factor1]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+          ) [SingleStatement9]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  13:36:22,668 - ===================================
+INFO  13:36:22,704 - Deklarisana globalna promenljiva x na liniji 3
+INFO  13:36:22,705 - Deklarisan globalni niz arr na liniji 3
+INFO  13:36:22,705 - Deklarisana globalna promenljiva y na liniji 4
+INFO  13:36:22,709 - METODA main IMA 0 PARAMETARA na liniji 17
+INFO  13:36:22,709 - NEMA
+INFO  13:36:22,709 -  Print count calls = 1
+INFO  13:36:22,709 -  Deklarisanih konstanti ima = 0
+INFO  13:36:22,710 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  13:36:22,710 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  13:36:22,711 - ===================================
+INFO  13:36:22,759 - Parsiranje uspesno zavrseno!

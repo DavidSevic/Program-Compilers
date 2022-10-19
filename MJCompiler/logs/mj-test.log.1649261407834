@@ -1,0 +1,135 @@
+INFO  18:08:45,580 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  18:08:45,639 - #2 program
+INFO  18:08:45,639 - #23 MJProgram
+INFO  18:08:45,639 - #7 const
+INFO  18:08:45,641 - #23 int
+INFO  18:08:45,641 - #23 x
+INFO  18:08:45,642 - #37 =
+INFO  18:08:45,643 - #51 1
+INFO  18:08:45,643 - #42 ,
+INFO  18:08:45,644 - #23 y
+INFO  18:08:45,644 - #37 =
+INFO  18:08:45,644 - #52 'a'
+INFO  18:08:45,644 - #42 ,
+INFO  18:08:45,645 - #23 z
+INFO  18:08:45,645 - #37 =
+INFO  18:08:45,645 - #53 false
+INFO  18:08:45,645 - #40 ;
+INFO  18:08:45,646 - #23 int
+INFO  18:08:45,647 - #23 a
+INFO  18:08:45,648 - #42 ,
+INFO  18:08:45,651 - #23 b
+INFO  18:08:45,651 - #46 [
+INFO  18:08:45,651 - #47 ]
+INFO  18:08:45,651 - #42 ,
+INFO  18:08:45,652 - #23 c
+INFO  18:08:45,652 - #40 ;
+INFO  18:08:45,652 - #7 const
+INFO  18:08:45,654 - #23 int
+INFO  18:08:45,654 - #23 w
+INFO  18:08:45,655 - #37 =
+INFO  18:08:45,655 - #51 0
+INFO  18:08:45,655 - #40 ;
+INFO  18:08:45,655 - #23 int
+INFO  18:08:45,655 - #23 d
+INFO  18:08:45,655 - #40 ;
+INFO  18:08:45,656 - #4 class
+INFO  18:08:45,656 - #23 Klasa
+INFO  18:08:45,656 - #16 extends
+INFO  18:08:45,656 - #23 Osnovna
+INFO  18:08:45,656 - #48 {
+INFO  18:08:45,657 - #49 }
+INFO  18:08:45,657 - #48 {
+INFO  18:08:45,659 - #49 }
+INFO  18:08:45,664 - Program(
+ MJProgram
+  DeclList3(
+    DeclList2(
+      DeclList1(
+        DeclList2(
+          DeclList1(
+            DeclList4(
+            ) [DeclList4]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             x
+              ConstOption1(
+               1
+              ) [ConstOption1]
+              ConstDeclList1(
+                ConstDeclList1(
+                  ConstDeclList2(
+                  ) [ConstDeclList2]
+                 y
+                  ConstOption2(
+                   'a'
+                  ) [ConstOption2]
+                ) [ConstDeclList1]
+               z
+                ConstOption3(
+                 false
+                ) [ConstOption3]
+              ) [ConstDeclList1]
+            ) [ConstDecl]
+          ) [DeclList1]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           a
+            SqrdOption2(
+            ) [SqrdOption2]
+            VarDeclList1(
+              VarDeclList1(
+                VarDeclList2(
+                ) [VarDeclList2]
+               b
+                SqrdOption1(
+                ) [SqrdOption1]
+              ) [VarDeclList1]
+             c
+              SqrdOption2(
+              ) [SqrdOption2]
+            ) [VarDeclList1]
+          ) [VarDecl]
+        ) [DeclList2]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+         w
+          ConstOption1(
+           0
+          ) [ConstOption1]
+          ConstDeclList2(
+          ) [ConstDeclList2]
+        ) [ConstDecl]
+      ) [DeclList1]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       d
+        SqrdOption2(
+        ) [SqrdOption2]
+        VarDeclList2(
+        ) [VarDeclList2]
+      ) [VarDecl]
+    ) [DeclList2]
+    ClassDecl(
+     Klasa
+      ExtendsOption1(
+        Type(
+         Osnovna
+        ) [Type]
+      ) [ExtendsOption1]
+    ) [ClassDecl]
+  ) [DeclList3]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  18:08:45,665 - ===================================
+INFO  18:08:45,670 -  Print count calls = 0
+INFO  18:08:45,670 -  Deklarisanih promenljivih ima = 2

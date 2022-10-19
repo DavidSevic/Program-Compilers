@@ -1,0 +1,134 @@
+INFO  15:03:48,584 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  15:03:48,739 - #2 program
+INFO  15:03:48,740 - #23 p
+INFO  15:03:48,740 - #23 int
+INFO  15:03:48,743 - #23 x
+INFO  15:03:48,745 - #42 ,
+INFO  15:03:48,747 - #23 y
+INFO  15:03:48,747 - #46 [
+INFO  15:03:48,747 - #47 ]
+INFO  15:03:48,748 - #42 ,
+INFO  15:03:48,749 - #23 z
+INFO  15:03:48,749 - #42 ,
+INFO  15:03:48,749 - #23 q
+INFO  15:03:48,749 - #46 [
+INFO  15:03:48,749 - #47 ]
+INFO  15:03:48,749 - #42 ,
+INFO  15:03:48,750 - #23 t
+INFO  15:03:48,750 - #46 [
+INFO  15:03:48,750 - #47 ]
+INFO  15:03:48,750 - #42 ,
+INFO  15:03:48,750 - #23 o
+INFO  15:03:48,750 - #42 ,
+INFO  15:03:48,750 - #23 f
+INFO  15:03:48,751 - #40 ;
+INFO  15:03:48,752 - #48 {
+INFO  15:03:48,754 - #15 void
+INFO  15:03:48,756 - #23 f
+INFO  15:03:48,757 - #44 (
+INFO  15:03:48,757 - #45 )
+INFO  15:03:48,759 - #23 char
+INFO  15:03:48,760 - #23 d
+INFO  15:03:48,760 - #42 ,
+INFO  15:03:48,763 - #23 q
+INFO  15:03:48,763 - #46 [
+INFO  15:03:48,763 - #47 ]
+INFO  15:03:48,763 - #40 ;
+INFO  15:03:48,765 - #48 {
+INFO  15:03:48,767 - #49 }
+INFO  15:03:48,768 - #49 }
+INFO  15:03:48,772 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList1(
+       y
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList1(
+         z
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList1(
+           q
+            SqrdOptionVar1(
+            ) [SqrdOptionVar1]
+            GlobVarDeclList1(
+             t
+              SqrdOptionVar1(
+              ) [SqrdOptionVar1]
+              GlobVarDeclList1(
+               o
+                SqrdOptionVar2(
+                ) [SqrdOptionVar2]
+                GlobVarDeclList1(
+                 f
+                  SqrdOptionVar2(
+                  ) [SqrdOptionVar2]
+                  GlobVarDeclList2(
+                  ) [GlobVarDeclList2]
+                ) [GlobVarDeclList1]
+              ) [GlobVarDeclList1]
+            ) [GlobVarDeclList1]
+          ) [GlobVarDeclList1]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         d
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           q
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:03:48,773 - ===================================
+ERROR 15:03:48,785 - Greska: Nije pronadjen tip int u tabeli simbola! 
+INFO  15:03:48,785 - Deklarisana globalna promenljiva f na liniji 3
+INFO  15:03:48,786 - Deklarisan globalni niz o na liniji 3
+INFO  15:03:48,786 - Deklarisana globalna promenljiva t na liniji 3
+INFO  15:03:48,786 - Deklarisan globalni niz q na liniji 3
+INFO  15:03:48,786 - Deklarisan globalni niz z na liniji 3
+INFO  15:03:48,786 - Deklarisana globalna promenljiva y na liniji 3
+INFO  15:03:48,786 - Deklarisana globalna promenljiva x na liniji 3
+INFO  15:03:48,786 - size imena: 7 a size sqrd je: 7 na liniji 3
+ERROR 15:03:48,787 - Greska: Nije pronadjen tip char u tabeli simbola! 
+INFO  15:03:48,787 -  Print count calls = 0
+INFO  15:03:48,787 -  Deklarisanih promenljivih ima = 2
+INFO  15:03:48,787 -  Deklarisanih globalnih promenljivih ima = 7

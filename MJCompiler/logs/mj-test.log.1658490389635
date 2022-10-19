@@ -1,0 +1,85 @@
+INFO  19:05:26,552 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  19:05:26,703 - #2 program
+INFO  19:05:26,703 - #23 p
+INFO  19:05:26,704 - #23 int
+INFO  19:05:26,708 - #23 x
+INFO  19:05:26,710 - #42 ,
+INFO  19:05:26,715 - #23 y
+INFO  19:05:26,715 - #46 [
+INFO  19:05:26,716 - #47 ]
+INFO  19:05:26,716 - #40 ;
+INFO  19:05:26,718 - #48 {
+INFO  19:05:26,723 - #15 void
+INFO  19:05:26,725 - #23 f
+INFO  19:05:26,728 - #44 (
+INFO  19:05:26,728 - #45 )
+INFO  19:05:26,730 - #23 int
+INFO  19:05:26,732 - #23 z
+INFO  19:05:26,732 - #42 ,
+INFO  19:05:26,734 - #23 q
+INFO  19:05:26,734 - #46 [
+INFO  19:05:26,735 - #47 ]
+INFO  19:05:26,735 - #40 ;
+INFO  19:05:26,735 - #48 {
+INFO  19:05:26,738 - #49 }
+INFO  19:05:26,740 - #49 }
+INFO  19:05:26,746 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOption2(
+      ) [SqrdOption2]
+      GLobVarDeclList1(
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+       y
+        SqrdOption1(
+        ) [SqrdOption1]
+      ) [GLobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         z
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           q
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:05:26,747 - ===================================
+INFO  19:05:26,753 -  Print count calls = 0
+INFO  19:05:26,753 -  Deklarisanih promenljivih ima = 2
+INFO  19:05:26,754 -  Deklarisanih globalnih promenljivih ima = 2

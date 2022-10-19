@@ -1,0 +1,220 @@
+INFO  19:45:20,192 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\testic.mj
+INFO  19:45:20,357 - #2 program
+INFO  19:45:20,358 - #23 test302
+INFO  19:45:20,358 - #7 const
+INFO  19:45:20,362 - #23 int
+INFO  19:45:20,362 - #23 jedan
+INFO  19:45:20,364 - #37 =
+INFO  19:45:20,365 - #51 1
+INFO  19:45:20,365 - #40 ;
+INFO  19:45:20,367 - #23 int
+INFO  19:45:20,369 - #23 i
+INFO  19:45:20,369 - #40 ;
+INFO  19:45:20,374 - #23 bool
+INFO  19:45:20,377 - #23 ibool
+INFO  19:45:20,377 - #40 ;
+INFO  19:45:20,377 - #23 int
+INFO  19:45:20,377 - #23 niz2
+INFO  19:45:20,378 - #40 ;
+INFO  19:45:20,378 - #23 int
+INFO  19:45:20,378 - #23 niz
+INFO  19:45:20,378 - #46 [
+INFO  19:45:20,378 - #47 ]
+INFO  19:45:20,379 - #40 ;
+INFO  19:45:20,381 - #23 int
+INFO  19:45:20,381 - #23 a
+INFO  19:45:20,381 - #40 ;
+INFO  19:45:20,381 - #48 {
+INFO  19:45:20,381 - #23 int
+INFO  19:45:20,383 - #23 f
+INFO  19:45:20,384 - #44 (
+INFO  19:45:20,385 - #23 int
+INFO  19:45:20,386 - #23 x
+INFO  19:45:20,386 - #42 ,
+INFO  19:45:20,390 - #23 int
+INFO  19:45:20,390 - #23 x
+INFO  19:45:20,390 - #45 )
+INFO  19:45:20,393 - #48 {
+INFO  19:45:20,395 - #14 return
+INFO  19:45:20,397 - #23 x
+INFO  19:45:20,402 - #40 ;
+INFO  19:45:20,415 - #49 }
+INFO  19:45:20,418 - #15 void
+INFO  19:45:20,420 - #23 main
+INFO  19:45:20,423 - #44 (
+INFO  19:45:20,426 - #45 )
+INFO  19:45:20,428 - #48 {
+INFO  19:45:20,428 - #49 }
+INFO  19:45:20,428 - #49 }
+INFO  19:45:20,453 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList2(
+        DeclList2(
+          DeclList2(
+            DeclList1(
+              DeclList5(
+              ) [DeclList5]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+               jedan
+                ConstOption1(
+                 1
+                ) [ConstOption1]
+                ConstDeclList2(
+                ) [ConstDeclList2]
+              ) [ConstDecl]
+            ) [DeclList1]
+            GlobVarDecl(
+              Type(
+               int
+              ) [Type]
+             i
+              SqrdOptionVar2(
+              ) [SqrdOptionVar2]
+              GlobVarDeclList2(
+              ) [GlobVarDeclList2]
+            ) [GlobVarDecl]
+          ) [DeclList2]
+          GlobVarDecl(
+            Type(
+             bool
+            ) [Type]
+           ibool
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            GlobVarDeclList2(
+            ) [GlobVarDeclList2]
+          ) [GlobVarDecl]
+        ) [DeclList2]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+         niz2
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDecl]
+      ) [DeclList2]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       niz
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     a
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl1(
+        TypeIdentMeth(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [TypeIdentMeth]
+        FormParsOption1(
+          FormPars(
+            Type(
+             int
+            ) [Type]
+           x
+            SqrdOption2(
+            ) [SqrdOption2]
+            FormParsList1(
+              FormParsList2(
+              ) [FormParsList2]
+              Type(
+               int
+              ) [Type]
+             x
+              SqrdOption2(
+              ) [SqrdOption2]
+            ) [FormParsList1]
+          ) [FormPars]
+        ) [FormParsOption1]
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement7(
+              RETURNhelp(
+              ) [RETURNhelp]
+              Expr(
+                MinusOption2(
+                ) [MinusOption2]
+                Term(
+                  Factor1(
+                    Designator(
+                      DesignatorIdent(
+                       x
+                      ) [DesignatorIdent]
+                      DesignatorList3(
+                      ) [DesignatorList3]
+                    ) [Designator]
+                  ) [Factor1]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+                AddopTermList2(
+                ) [AddopTermList2]
+              ) [Expr]
+              SEMIhelp(
+              ) [SEMIhelp]
+            ) [SingleStatement7]
+          ) [Statement2]
+        ) [StatementList1]
+      ) [MethodDecl1]
+    ) [MethodDeclList1]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:45:20,455 - ===================================
+INFO  19:45:20,474 - Deklarisana konstanta jedan na liniji 5
+INFO  19:45:20,474 - Deklarisana globalna promenljiva i na liniji 7
+INFO  19:45:20,478 - Deklarisana globalna promenljiva ibool na liniji 8
+INFO  19:45:20,478 - Deklarisana globalna promenljiva niz2 na liniji 10
+INFO  19:45:20,478 - Deklarisan globalni niz niz na liniji 12
+INFO  19:45:20,479 - Deklarisana globalna promenljiva a na liniji 13
+INFO  19:45:20,485 - NEMA
+INFO  19:45:20,485 -  Print count calls = 0
+INFO  19:45:20,485 -  Deklarisanih konstanti ima = 1
+INFO  19:45:20,485 -  Deklarisanih globalnih promenljivih ima = 4
+INFO  19:45:20,486 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  19:45:20,486 - ===================================
+INFO  19:45:20,488 - Parsiranje uspesno zavrseno!

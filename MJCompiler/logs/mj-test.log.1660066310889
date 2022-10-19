@@ -1,0 +1,153 @@
+INFO  19:31:16,786 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\mojtestic.mj
+INFO  19:31:16,945 - #2 program
+INFO  19:31:16,945 - #23 p
+INFO  19:31:16,945 - #23 int
+INFO  19:31:16,951 - #23 x
+INFO  19:31:16,953 - #42 ,
+INFO  19:31:16,956 - #23 arr
+INFO  19:31:16,956 - #46 [
+INFO  19:31:16,956 - #47 ]
+INFO  19:31:16,956 - #42 ,
+INFO  19:31:16,958 - #23 arr2
+INFO  19:31:16,959 - #46 [
+INFO  19:31:16,959 - #47 ]
+INFO  19:31:16,959 - #40 ;
+INFO  19:31:16,961 - #23 char
+INFO  19:31:16,963 - #23 y
+INFO  19:31:16,963 - #42 ,
+INFO  19:31:16,964 - #23 nizC
+INFO  19:31:16,964 - #46 [
+INFO  19:31:16,964 - #47 ]
+INFO  19:31:16,964 - #40 ;
+INFO  19:31:16,965 - #48 {
+INFO  19:31:16,965 - #23 int
+INFO  19:31:16,967 - #23 k
+INFO  19:31:16,968 - #44 (
+INFO  19:31:16,970 - #45 )
+INFO  19:31:16,971 - #48 {
+INFO  19:31:16,973 - #14 return
+INFO  19:31:16,974 - #51 5
+INFO  19:31:16,979 - #40 ;
+INFO  19:31:16,987 - #49 }
+INFO  19:31:16,989 - #15 void
+INFO  19:31:16,990 - #23 main
+INFO  19:31:16,990 - #44 (
+INFO  19:31:16,994 - #45 )
+INFO  19:31:16,994 - #48 {
+INFO  19:31:16,995 - #49 }
+INFO  19:31:16,995 - #49 }
+INFO  19:31:17,026 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList1(
+         arr
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+          GlobVarDeclList1(
+           arr2
+            SqrdOptionVar1(
+            ) [SqrdOptionVar1]
+            GlobVarDeclList2(
+            ) [GlobVarDeclList2]
+          ) [GlobVarDeclList1]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList1(
+       nizC
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList1(
+      MethodDeclList2(
+      ) [MethodDeclList2]
+      MethodDecl1(
+        TypeIdentMeth(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [TypeIdentMeth]
+        FormParsOption2(
+        ) [FormParsOption2]
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement7(
+              RETURNhelp(
+              ) [RETURNhelp]
+              Expr(
+                MinusOption2(
+                ) [MinusOption2]
+                Term(
+                  Factor3(
+                   5
+                  ) [Factor3]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+                AddopTermList2(
+                ) [AddopTermList2]
+              ) [Expr]
+              SEMIhelp(
+              ) [SEMIhelp]
+            ) [SingleStatement7]
+          ) [Statement2]
+        ) [StatementList1]
+      ) [MethodDecl1]
+    ) [MethodDeclList1]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:31:17,029 - ===================================
+INFO  19:31:17,042 - Deklarisana globalna promenljiva x na liniji 3
+INFO  19:31:17,043 - Deklarisan globalni niz arr na liniji 3
+INFO  19:31:17,043 - Deklarisan globalni niz arr2 na liniji 3
+INFO  19:31:17,043 - Deklarisana globalna promenljiva y na liniji 4
+INFO  19:31:17,043 - Deklarisan globalni niz nizC na liniji 4
+INFO  19:31:17,044 - METODA k IMA 0 PARAMETARA na liniji 10
+INFO  19:31:17,044 - METODA main IMA 0 PARAMETARA na liniji 12
+INFO  19:31:17,045 - NEMA
+INFO  19:31:17,045 -  Print count calls = 0
+INFO  19:31:17,045 -  Deklarisanih konstanti ima = 0
+INFO  19:31:17,045 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  19:31:17,046 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  19:31:17,046 - ===================================
+INFO  19:31:17,070 - Parsiranje uspesno zavrseno!

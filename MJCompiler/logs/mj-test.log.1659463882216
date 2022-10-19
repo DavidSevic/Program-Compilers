@@ -1,0 +1,121 @@
+INFO  19:19:10,888 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  19:19:11,012 - #2 program
+INFO  19:19:11,012 - #23 p
+INFO  19:19:11,012 - #23 int
+INFO  19:19:11,016 - #23 x
+INFO  19:19:11,017 - #40 ;
+INFO  19:19:11,021 - #23 int
+INFO  19:19:11,023 - #23 y
+INFO  19:19:11,023 - #40 ;
+INFO  19:19:11,024 - #48 {
+INFO  19:19:11,024 - #15 void
+INFO  19:19:11,025 - #23 main
+INFO  19:19:11,025 - #44 (
+INFO  19:19:11,027 - #45 )
+INFO  19:19:11,028 - #48 {
+INFO  19:19:11,031 - #12 print
+INFO  19:19:11,032 - #44 (
+INFO  19:19:11,033 - #51 1
+INFO  19:19:11,035 - #45 )
+INFO  19:19:11,040 - #40 ;
+INFO  19:19:11,040 - #12 print
+INFO  19:19:11,041 - #44 (
+INFO  19:19:11,041 - #51 2
+INFO  19:19:11,043 - #45 )
+INFO  19:19:11,043 - #40 ;
+INFO  19:19:11,043 - #49 }
+INFO  19:19:11,043 - #49 }
+INFO  19:19:11,064 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList5(
+      ) [DeclList5]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        SqrdOptionVar2(
+        ) [SqrdOptionVar2]
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     y
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList1(
+          StatementList2(
+          ) [StatementList2]
+          Statement2(
+            SingleStatement9(
+              Expr(
+                MinusOption2(
+                ) [MinusOption2]
+                Term(
+                  Factor3(
+                   1
+                  ) [Factor3]
+                  MulopFactorList2(
+                  ) [MulopFactorList2]
+                ) [Term]
+                AddopTermList2(
+                ) [AddopTermList2]
+              ) [Expr]
+            ) [SingleStatement9]
+          ) [Statement2]
+        ) [StatementList1]
+        Statement2(
+          SingleStatement9(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor3(
+                 2
+                ) [Factor3]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+          ) [SingleStatement9]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  19:19:11,065 - ===================================
+INFO  19:19:11,072 - Deklarisana globalna promenljiva x na liniji 3
+INFO  19:19:11,072 - Deklarisana globalna promenljiva y na liniji 4
+INFO  19:19:11,072 - NEMA
+INFO  19:19:11,073 -  Print count calls = 2
+INFO  19:19:11,073 -  Deklarisanih konstanti ima = 0
+INFO  19:19:11,073 -  Deklarisanih globalnih promenljivih ima = 2
+INFO  19:19:11,073 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  19:19:11,073 - ===================================
+INFO  19:19:11,090 - Parsiranje uspesno zavrseno!

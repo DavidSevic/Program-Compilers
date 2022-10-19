@@ -1,0 +1,89 @@
+INFO  14:11:17,750 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  14:11:17,867 - #2 program
+INFO  14:11:17,868 - #23 p
+INFO  14:11:17,868 - #23 int
+INFO  14:11:17,871 - #23 x
+INFO  14:11:17,872 - #42 ,
+INFO  14:11:17,875 - #23 y
+INFO  14:11:17,875 - #46 [
+INFO  14:11:17,875 - #47 ]
+INFO  14:11:17,875 - #40 ;
+INFO  14:11:17,877 - #48 {
+INFO  14:11:17,879 - #15 void
+INFO  14:11:17,880 - #23 f
+INFO  14:11:17,882 - #44 (
+INFO  14:11:17,883 - #45 )
+INFO  14:11:17,885 - #23 char
+INFO  14:11:17,886 - #23 z
+INFO  14:11:17,887 - #42 ,
+INFO  14:11:17,888 - #23 q
+INFO  14:11:17,888 - #46 [
+INFO  14:11:17,889 - #47 ]
+INFO  14:11:17,889 - #40 ;
+INFO  14:11:17,889 - #48 {
+INFO  14:11:17,891 - #49 }
+INFO  14:11:17,893 - #49 }
+INFO  14:11:17,897 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOption2(
+      ) [SqrdOption2]
+      GlobVarDeclList1(
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+       y
+        SqrdOption1(
+        ) [SqrdOption1]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         z
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           q
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:11:17,898 - ===================================
+ERROR 14:11:17,915 - Greska: Nije pronadjen tip int u tabeli simbola! 
+INFO  14:11:17,916 - Deklarisana globalna promenljiva y na liniji 4
+INFO  14:11:17,916 - Deklarisana globalna promenljiva x na liniji 3
+ERROR 14:11:17,916 - Greska: Nije pronadjen tip char u tabeli simbola! 
+INFO  14:11:17,916 -  Print count calls = 0
+INFO  14:11:17,916 -  Deklarisanih promenljivih ima = 2
+INFO  14:11:17,916 -  Deklarisanih globalnih promenljivih ima = 2

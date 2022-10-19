@@ -1,0 +1,152 @@
+INFO  15:08:22,102 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  15:08:22,211 - #2 program
+INFO  15:08:22,211 - #23 p
+INFO  15:08:22,212 - #23 int
+INFO  15:08:22,215 - #23 x
+INFO  15:08:22,216 - #46 [
+INFO  15:08:22,216 - #47 ]
+INFO  15:08:22,216 - #42 ,
+INFO  15:08:22,218 - #23 y
+INFO  15:08:22,219 - #46 [
+INFO  15:08:22,219 - #47 ]
+INFO  15:08:22,219 - #42 ,
+INFO  15:08:22,219 - #23 z
+INFO  15:08:22,219 - #42 ,
+INFO  15:08:22,221 - #23 q
+INFO  15:08:22,221 - #42 ,
+INFO  15:08:22,221 - #23 o
+INFO  15:08:22,221 - #46 [
+INFO  15:08:22,221 - #47 ]
+INFO  15:08:22,221 - #42 ,
+INFO  15:08:22,222 - #23 f
+INFO  15:08:22,222 - #46 [
+INFO  15:08:22,222 - #47 ]
+INFO  15:08:22,222 - #42 ,
+INFO  15:08:22,222 - #23 g
+INFO  15:08:22,222 - #42 ,
+INFO  15:08:22,222 - #23 k
+INFO  15:08:22,222 - #42 ,
+INFO  15:08:22,222 - #23 c
+INFO  15:08:22,222 - #40 ;
+INFO  15:08:22,224 - #48 {
+INFO  15:08:22,226 - #15 void
+INFO  15:08:22,227 - #23 f
+INFO  15:08:22,228 - #44 (
+INFO  15:08:22,228 - #45 )
+INFO  15:08:22,230 - #23 char
+INFO  15:08:22,231 - #23 d
+INFO  15:08:22,231 - #42 ,
+INFO  15:08:22,234 - #23 q
+INFO  15:08:22,235 - #46 [
+INFO  15:08:22,235 - #47 ]
+INFO  15:08:22,235 - #40 ;
+INFO  15:08:22,237 - #48 {
+INFO  15:08:22,238 - #49 }
+INFO  15:08:22,240 - #49 }
+INFO  15:08:22,244 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOptionVar1(
+      ) [SqrdOptionVar1]
+      GlobVarDeclList1(
+       y
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList1(
+         z
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList1(
+           q
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            GlobVarDeclList1(
+             o
+              SqrdOptionVar1(
+              ) [SqrdOptionVar1]
+              GlobVarDeclList1(
+               f
+                SqrdOptionVar1(
+                ) [SqrdOptionVar1]
+                GlobVarDeclList1(
+                 g
+                  SqrdOptionVar2(
+                  ) [SqrdOptionVar2]
+                  GlobVarDeclList1(
+                   k
+                    SqrdOptionVar2(
+                    ) [SqrdOptionVar2]
+                    GlobVarDeclList1(
+                     c
+                      SqrdOptionVar2(
+                      ) [SqrdOptionVar2]
+                      GlobVarDeclList2(
+                      ) [GlobVarDeclList2]
+                    ) [GlobVarDeclList1]
+                  ) [GlobVarDeclList1]
+                ) [GlobVarDeclList1]
+              ) [GlobVarDeclList1]
+            ) [GlobVarDeclList1]
+          ) [GlobVarDeclList1]
+        ) [GlobVarDeclList1]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         d
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           q
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:08:22,245 - ===================================
+ERROR 15:08:22,259 - Greska: Nije pronadjen tip int u tabeli simbola! 
+INFO  15:08:22,259 - Deklarisan globalni niz x na liniji 3
+INFO  15:08:22,260 - Deklarisan globalni niz y na liniji 3
+INFO  15:08:22,260 - Deklarisana globalna promenljiva z na liniji 3
+INFO  15:08:22,260 - Deklarisana globalna promenljiva q na liniji 3
+INFO  15:08:22,260 - Deklarisan globalni niz o na liniji 3
+INFO  15:08:22,260 - Deklarisan globalni niz f na liniji 3
+INFO  15:08:22,260 - Deklarisana globalna promenljiva g na liniji 3
+INFO  15:08:22,260 - Deklarisana globalna promenljiva k na liniji 3
+INFO  15:08:22,261 - Deklarisana globalna promenljiva c na liniji 3
+INFO  15:08:22,261 - size imena: 9 a size sqrd je: 9 na liniji 3
+ERROR 15:08:22,261 - Greska: Nije pronadjen tip char u tabeli simbola! 
+INFO  15:08:22,261 -  Print count calls = 0
+INFO  15:08:22,261 -  Deklarisanih promenljivih ima = 2
+INFO  15:08:22,262 -  Deklarisanih globalnih promenljivih ima = 9

@@ -1,0 +1,69 @@
+INFO  15:53:05,156 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  15:53:05,269 - #2 program
+INFO  15:53:05,269 - #23 p
+INFO  15:53:05,270 - #48 {
+INFO  15:53:05,271 - #15 void
+INFO  15:53:05,273 - #23 f
+INFO  15:53:05,274 - #44 (
+INFO  15:53:05,274 - #45 )
+INFO  15:53:05,275 - #48 {
+INFO  15:53:05,277 - #14 return
+INFO  15:53:05,278 - #52 0
+INFO  15:53:05,280 - #51 ^
+INFO  15:53:05,282 - #54 true
+INFO  15:53:05,283 - #40 ;
+INFO  15:53:05,290 - #49 }
+INFO  15:53:05,290 - #49 }
+INFO  15:53:05,294 - Program(
+ p
+  DeclList5(
+  ) [DeclList5]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement7(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor(
+                  BaseExp3(
+                   0
+                  ) [BaseExp3]
+                  ExPopBaseExpList1(
+                    ExPopBaseExpList2(
+                    ) [ExPopBaseExpList2]
+                    ExPop(
+                    ) [ExPop]
+                    BaseExp5(
+                     true
+                    ) [BaseExp5]
+                  ) [ExPopBaseExpList1]
+                ) [Factor]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+          ) [SingleStatement7]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  15:53:05,295 - ===================================
+INFO  15:53:05,299 -  Print count calls = 0
+INFO  15:53:05,299 -  Deklarisanih promenljivih ima = 0

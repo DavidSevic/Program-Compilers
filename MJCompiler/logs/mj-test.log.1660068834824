@@ -1,0 +1,36 @@
+INFO  20:13:20,240 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  20:13:20,420 - #2 program
+INFO  20:13:20,420 - #23 test301
+INFO  20:13:20,420 - #7 const
+INFO  20:13:20,424 - #23 int
+INFO  20:13:20,424 - #23 nula
+INFO  20:13:20,427 - #37 =
+INFO  20:13:20,427 - #51 0
+INFO  20:13:20,427 - #40 ;
+INFO  20:13:20,429 - #48 {
+INFO  20:13:20,432 - #49 }
+INFO  20:13:20,453 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclList1(
+    DeclList5(
+    ) [DeclList5]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+     nula
+      ConstOption1(
+       0
+      ) [ConstOption1]
+      ConstDeclList2(
+      ) [ConstDeclList2]
+    ) [ConstDecl]
+  ) [DeclList1]
+  MethodDeclList2(
+  ) [MethodDeclList2]
+) [Program]
+INFO  20:13:20,455 - ===================================
+INFO  20:13:20,468 - varNames size: 1, constTypes size: 1 na liniji 5
+INFO  20:13:20,469 - ime: nula na liniji 5

@@ -1,0 +1,414 @@
+INFO  21:30:09,602 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  21:30:09,760 - #2 program
+INFO  21:30:09,760 - #23 test301
+INFO  21:30:09,761 - #7 const
+INFO  21:30:09,764 - #23 int
+INFO  21:30:09,764 - #23 nula
+INFO  21:30:09,766 - #37 =
+INFO  21:30:09,766 - #51 0
+INFO  21:30:09,766 - #40 ;
+INFO  21:30:09,768 - #7 const
+INFO  21:30:09,771 - #23 int
+INFO  21:30:09,771 - #23 jedan
+INFO  21:30:09,772 - #37 =
+INFO  21:30:09,772 - #51 1
+INFO  21:30:09,772 - #40 ;
+INFO  21:30:09,772 - #7 const
+INFO  21:30:09,773 - #23 int
+INFO  21:30:09,773 - #23 tri
+INFO  21:30:09,773 - #37 =
+INFO  21:30:09,773 - #51 3
+INFO  21:30:09,773 - #40 ;
+INFO  21:30:09,774 - #7 const
+INFO  21:30:09,775 - #23 int
+INFO  21:30:09,775 - #23 pet
+INFO  21:30:09,775 - #37 =
+INFO  21:30:09,775 - #51 5
+INFO  21:30:09,775 - #40 ;
+INFO  21:30:09,776 - #7 const
+INFO  21:30:09,776 - #23 char
+INFO  21:30:09,776 - #23 cc
+INFO  21:30:09,776 - #37 =
+INFO  21:30:09,777 - #52 'd'
+INFO  21:30:09,777 - #40 ;
+INFO  21:30:09,777 - #23 int
+INFO  21:30:09,777 - #23 niz
+INFO  21:30:09,778 - #46 [
+INFO  21:30:09,778 - #47 ]
+INFO  21:30:09,778 - #40 ;
+INFO  21:30:09,783 - #23 char
+INFO  21:30:09,785 - #23 nizch
+INFO  21:30:09,785 - #46 [
+INFO  21:30:09,786 - #47 ]
+INFO  21:30:09,786 - #40 ;
+INFO  21:30:09,786 - #23 char
+INFO  21:30:09,786 - #23 c
+INFO  21:30:09,786 - #40 ;
+INFO  21:30:09,788 - #48 {
+INFO  21:30:09,789 - #15 void
+INFO  21:30:09,791 - #23 main
+INFO  21:30:09,791 - #44 (
+INFO  21:30:09,795 - #45 )
+INFO  21:30:09,797 - #23 int
+INFO  21:30:09,799 - #23 bodovi
+INFO  21:30:09,799 - #40 ;
+INFO  21:30:09,800 - #23 bool
+INFO  21:30:09,803 - #23 bt
+INFO  21:30:09,803 - #40 ;
+INFO  21:30:09,804 - #48 {
+INFO  21:30:09,804 - #23 nizch
+INFO  21:30:09,806 - #37 =
+INFO  21:30:09,813 - #11 new
+INFO  21:30:09,819 - #23 char
+INFO  21:30:09,819 - #46 [
+INFO  21:30:09,820 - #51 1
+INFO  21:30:09,822 - #47 ]
+INFO  21:30:09,836 - #40 ;
+INFO  21:30:09,839 - #23 nizch
+INFO  21:30:09,840 - #46 [
+INFO  21:30:09,840 - #51 0
+INFO  21:30:09,847 - #47 ]
+INFO  21:30:09,847 - #37 =
+INFO  21:30:09,847 - #52 'a'
+INFO  21:30:09,848 - #40 ;
+INFO  21:30:09,848 - #12 print
+INFO  21:30:09,848 - #44 (
+INFO  21:30:09,848 - #23 nizch
+INFO  21:30:09,848 - #46 [
+INFO  21:30:09,848 - #51 0
+INFO  21:30:09,848 - #47 ]
+INFO  21:30:09,849 - #45 )
+INFO  21:30:09,849 - #40 ;
+INFO  21:30:09,849 - #49 }
+INFO  21:30:09,850 - #49 }
+INFO  21:30:09,878 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList2(
+        DeclList1(
+          DeclList1(
+            DeclList1(
+              DeclList1(
+                DeclList1(
+                  DeclList5(
+                  ) [DeclList5]
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                   nula
+                    ConstOption1(
+                     0
+                    ) [ConstOption1]
+                    ConstDeclList2(
+                    ) [ConstDeclList2]
+                  ) [ConstDecl]
+                ) [DeclList1]
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 jedan
+                  ConstOption1(
+                   1
+                  ) [ConstOption1]
+                  ConstDeclList2(
+                  ) [ConstDeclList2]
+                ) [ConstDecl]
+              ) [DeclList1]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+               tri
+                ConstOption1(
+                 3
+                ) [ConstOption1]
+                ConstDeclList2(
+                ) [ConstDeclList2]
+              ) [ConstDecl]
+            ) [DeclList1]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             pet
+              ConstOption1(
+               5
+              ) [ConstOption1]
+              ConstDeclList2(
+              ) [ConstDeclList2]
+            ) [ConstDecl]
+          ) [DeclList1]
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+           cc
+            ConstOption2(
+             'd'
+            ) [ConstOption2]
+            ConstDeclList2(
+            ) [ConstDeclList2]
+          ) [ConstDecl]
+        ) [DeclList1]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+          SqrdOptionVar1(
+          ) [SqrdOptionVar1]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDecl]
+      ) [DeclList2]
+      GlobVarDecl(
+        Type(
+         char
+        ) [Type]
+       nizch
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       char
+      ) [Type]
+     c
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption1(
+          VarDeclOption2(
+          ) [VarDeclOption2]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           bodovi
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            VarDeclList2(
+            ) [VarDeclList2]
+          ) [VarDecl]
+        ) [VarDeclOption1]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         bt
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          VarDeclList2(
+          ) [VarDeclList2]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList1(
+        StatementList1(
+          StatementList1(
+            StatementList2(
+            ) [StatementList2]
+            Statement2(
+              SingleStatement1(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorIdent(
+                     nizch
+                    ) [DesignatorIdent]
+                    DesignatorList3(
+                    ) [DesignatorList3]
+                  ) [Designator]
+                  DesignatorStmtOptions1(
+                    Assignop(
+                    ) [Assignop]
+                    Expr(
+                      MinusOption2(
+                      ) [MinusOption2]
+                      Term(
+                        Factor7(
+                          Type(
+                           char
+                          ) [Type]
+                          LSQRDhelp(
+                          ) [LSQRDhelp]
+                          Expr(
+                            MinusOption2(
+                            ) [MinusOption2]
+                            Term(
+                              Factor3(
+                               1
+                              ) [Factor3]
+                              MulopFactorList2(
+                              ) [MulopFactorList2]
+                            ) [Term]
+                            AddopTermList2(
+                            ) [AddopTermList2]
+                          ) [Expr]
+                        ) [Factor7]
+                        MulopFactorList2(
+                        ) [MulopFactorList2]
+                      ) [Term]
+                      AddopTermList2(
+                      ) [AddopTermList2]
+                    ) [Expr]
+                  ) [DesignatorStmtOptions1]
+                ) [DesignatorStatement]
+              ) [SingleStatement1]
+            ) [Statement2]
+          ) [StatementList1]
+          Statement2(
+            SingleStatement1(
+              DesignatorStatement(
+                Designator(
+                  DesignatorIdent(
+                   nizch
+                  ) [DesignatorIdent]
+                  DesignatorList2(
+                    DesignatorList3(
+                    ) [DesignatorList3]
+                    LSQRDhelp(
+                    ) [LSQRDhelp]
+                    Expr(
+                      MinusOption2(
+                      ) [MinusOption2]
+                      Term(
+                        Factor3(
+                         0
+                        ) [Factor3]
+                        MulopFactorList2(
+                        ) [MulopFactorList2]
+                      ) [Term]
+                      AddopTermList2(
+                      ) [AddopTermList2]
+                    ) [Expr]
+                  ) [DesignatorList2]
+                ) [Designator]
+                DesignatorStmtOptions1(
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    MinusOption2(
+                    ) [MinusOption2]
+                    Term(
+                      Factor4(
+                       'a'
+                      ) [Factor4]
+                      MulopFactorList2(
+                      ) [MulopFactorList2]
+                    ) [Term]
+                    AddopTermList2(
+                    ) [AddopTermList2]
+                  ) [Expr]
+                ) [DesignatorStmtOptions1]
+              ) [DesignatorStatement]
+            ) [SingleStatement1]
+          ) [Statement2]
+        ) [StatementList1]
+        Statement2(
+          SingleStatement9(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor1(
+                  Designator(
+                    DesignatorIdent(
+                     nizch
+                    ) [DesignatorIdent]
+                    DesignatorList2(
+                      DesignatorList3(
+                      ) [DesignatorList3]
+                      LSQRDhelp(
+                      ) [LSQRDhelp]
+                      Expr(
+                        MinusOption2(
+                        ) [MinusOption2]
+                        Term(
+                          Factor3(
+                           0
+                          ) [Factor3]
+                          MulopFactorList2(
+                          ) [MulopFactorList2]
+                        ) [Term]
+                        AddopTermList2(
+                        ) [AddopTermList2]
+                      ) [Expr]
+                    ) [DesignatorList2]
+                  ) [Designator]
+                ) [Factor1]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+          ) [SingleStatement9]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  21:30:09,879 - ===================================
+INFO  21:30:09,893 - varNames size: 1, constTypes size: 1 na liniji 5
+INFO  21:30:09,894 - ime: nula na liniji 5
+INFO  21:30:09,895 - tip: 1 na liniji 5
+INFO  21:30:09,895 - Deklarisana konstanta nula na liniji 5
+INFO  21:30:09,895 - varNames size: 1, constTypes size: 1 na liniji 6
+INFO  21:30:09,895 - ime: jedan na liniji 6
+INFO  21:30:09,895 - tip: 1 na liniji 6
+INFO  21:30:09,896 - Deklarisana konstanta jedan na liniji 6
+INFO  21:30:09,896 - varNames size: 1, constTypes size: 1 na liniji 7
+INFO  21:30:09,897 - ime: tri na liniji 7
+INFO  21:30:09,897 - tip: 1 na liniji 7
+INFO  21:30:09,897 - Deklarisana konstanta tri na liniji 7
+INFO  21:30:09,897 - varNames size: 1, constTypes size: 1 na liniji 8
+INFO  21:30:09,898 - ime: pet na liniji 8
+INFO  21:30:09,898 - tip: 1 na liniji 8
+INFO  21:30:09,898 - Deklarisana konstanta pet na liniji 8
+INFO  21:30:09,898 - varNames size: 1, constTypes size: 1 na liniji 9
+INFO  21:30:09,898 - ime: cc na liniji 9
+INFO  21:30:09,898 - tip: 2 na liniji 9
+INFO  21:30:09,899 - Deklarisana konstanta cc na liniji 9
+INFO  21:30:09,899 - Deklarisan globalni niz niz na liniji 11
+INFO  21:30:09,899 - Deklarisan globalni niz nizch na liniji 12
+INFO  21:30:09,899 - Deklarisana globalna promenljiva c na liniji 13
+INFO  21:30:09,901 - Deklarisana lokalna promenljiva bodovi na liniji 16
+INFO  21:30:09,901 - Deklarisana lokalna promenljiva bt na liniji 17
+INFO  21:30:09,901 - gleda se dsg nizch
+INFO  21:30:09,902 - Za adresiranje koriscen izraz koji je ceo broj na liniji 2
+INFO  21:30:09,902 - Pristup nizu nizch na liniji 22
+INFO  21:30:09,902 - URADIOOOOOOOOOOOOOOOOOOOOOOOOO
+INFO  21:30:09,902 - gleda se dsg nizch
+INFO  21:30:09,902 - Za adresiranje koriscen izraz koji je ceo broj na liniji 8
+INFO  21:30:09,902 - Pristup nizu nizch na liniji 24
+INFO  21:30:09,903 - URADIOOOOOOOOOOOOOOOOOOOOOOOOO
+INFO  21:30:09,903 - gleda se dsg nizch
+INFO  21:30:09,903 - SAD JE nizch na liniji 24
+INFO  21:30:09,903 - METODA main IMA 0 PARAMETARA na liniji 15
+INFO  21:30:09,903 - NEMA
+INFO  21:30:09,904 -  Print count calls = 1
+INFO  21:30:09,904 -  Deklarisanih konstanti ima = 5
+INFO  21:30:09,904 -  Deklarisanih globalnih promenljivih ima = 1
+INFO  21:30:09,904 -  Deklarisanih lokalnih promenljivih ima = 2
+INFO  21:30:09,904 - ===================================
+INFO  21:30:09,925 - Parsiranje uspesno zavrseno!

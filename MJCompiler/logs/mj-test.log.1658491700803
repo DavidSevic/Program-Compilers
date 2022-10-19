@@ -1,0 +1,88 @@
+INFO  13:59:29,382 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  13:59:29,492 - #2 program
+INFO  13:59:29,492 - #23 p
+INFO  13:59:29,492 - #23 int
+INFO  13:59:29,495 - #23 x
+INFO  13:59:29,496 - #42 ,
+INFO  13:59:29,499 - #23 y
+INFO  13:59:29,499 - #46 [
+INFO  13:59:29,500 - #47 ]
+INFO  13:59:29,500 - #40 ;
+INFO  13:59:29,501 - #48 {
+INFO  13:59:29,503 - #15 void
+INFO  13:59:29,504 - #23 f
+INFO  13:59:29,505 - #44 (
+INFO  13:59:29,506 - #45 )
+INFO  13:59:29,507 - #23 char
+INFO  13:59:29,508 - #23 z
+INFO  13:59:29,509 - #42 ,
+INFO  13:59:29,510 - #23 q
+INFO  13:59:29,511 - #46 [
+INFO  13:59:29,511 - #47 ]
+INFO  13:59:29,511 - #40 ;
+INFO  13:59:29,512 - #48 {
+INFO  13:59:29,514 - #49 }
+INFO  13:59:29,515 - #49 }
+INFO  13:59:29,519 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclList2(
+    DeclList5(
+    ) [DeclList5]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+      SqrdOption2(
+      ) [SqrdOption2]
+      GlobVarDeclList1(
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+       y
+        SqrdOption1(
+        ) [SqrdOption1]
+      ) [GlobVarDeclList1]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption1(
+        VarDeclOption2(
+        ) [VarDeclOption2]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+         z
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList2(
+            ) [VarDeclList2]
+           q
+            SqrdOption1(
+            ) [SqrdOption1]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  13:59:29,520 - ===================================
+ERROR 13:59:29,534 - Nije pronadjen tip int u tabeli simbola! 
+INFO  13:59:29,534 - Deklarisana globalna promenljiva x na liniji 3
+ERROR 13:59:29,535 - Nije pronadjen tip char u tabeli simbola! 
+INFO  13:59:29,535 -  Print count calls = 0
+INFO  13:59:29,535 -  Deklarisanih promenljivih ima = 2
+INFO  13:59:29,535 -  Deklarisanih globalnih promenljivih ima = 2

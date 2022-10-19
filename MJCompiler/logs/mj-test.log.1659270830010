@@ -1,0 +1,143 @@
+INFO  14:33:23,805 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\testic.mj
+INFO  14:33:23,953 - #2 program
+INFO  14:33:23,954 - #23 test302
+INFO  14:33:23,954 - #7 const
+INFO  14:33:23,958 - #23 int
+INFO  14:33:23,958 - #23 jedan
+INFO  14:33:23,959 - #37 =
+INFO  14:33:23,960 - #51 1
+INFO  14:33:23,960 - #40 ;
+INFO  14:33:23,961 - #23 int
+INFO  14:33:23,963 - #23 i
+INFO  14:33:23,963 - #40 ;
+INFO  14:33:23,967 - #23 bool
+INFO  14:33:23,969 - #23 ibool
+INFO  14:33:23,969 - #40 ;
+INFO  14:33:23,969 - #23 int
+INFO  14:33:23,970 - #23 niz2
+INFO  14:33:23,970 - #40 ;
+INFO  14:33:23,970 - #23 int
+INFO  14:33:23,970 - #23 niz
+INFO  14:33:23,970 - #46 [
+INFO  14:33:23,971 - #47 ]
+INFO  14:33:23,971 - #40 ;
+INFO  14:33:23,972 - #23 int
+INFO  14:33:23,973 - #23 a
+INFO  14:33:23,973 - #40 ;
+INFO  14:33:23,973 - #48 {
+INFO  14:33:23,973 - #15 void
+INFO  14:33:23,974 - #23 main
+INFO  14:33:23,975 - #44 (
+INFO  14:33:23,976 - #45 )
+INFO  14:33:23,978 - #48 {
+INFO  14:33:23,979 - #49 }
+INFO  14:33:23,980 - #49 }
+INFO  14:33:23,997 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclList2(
+    DeclList2(
+      DeclList2(
+        DeclList2(
+          DeclList2(
+            DeclList1(
+              DeclList5(
+              ) [DeclList5]
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+               jedan
+                ConstOption1(
+                 1
+                ) [ConstOption1]
+                ConstDeclList2(
+                ) [ConstDeclList2]
+              ) [ConstDecl]
+            ) [DeclList1]
+            GlobVarDecl(
+              Type(
+               int
+              ) [Type]
+             i
+              SqrdOptionVar2(
+              ) [SqrdOptionVar2]
+              GlobVarDeclList2(
+              ) [GlobVarDeclList2]
+            ) [GlobVarDecl]
+          ) [DeclList2]
+          GlobVarDecl(
+            Type(
+             bool
+            ) [Type]
+           ibool
+            SqrdOptionVar2(
+            ) [SqrdOptionVar2]
+            GlobVarDeclList2(
+            ) [GlobVarDeclList2]
+          ) [GlobVarDecl]
+        ) [DeclList2]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+         niz2
+          SqrdOptionVar2(
+          ) [SqrdOptionVar2]
+          GlobVarDeclList2(
+          ) [GlobVarDeclList2]
+        ) [GlobVarDecl]
+      ) [DeclList2]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+       niz
+        SqrdOptionVar1(
+        ) [SqrdOptionVar1]
+        GlobVarDeclList2(
+        ) [GlobVarDeclList2]
+      ) [GlobVarDecl]
+    ) [DeclList2]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+     a
+      SqrdOptionVar2(
+      ) [SqrdOptionVar2]
+      GlobVarDeclList2(
+      ) [GlobVarDeclList2]
+    ) [GlobVarDecl]
+  ) [DeclList2]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl2(
+      VoidIdentMeth(
+       main
+      ) [VoidIdentMeth]
+      FormParsOption2(
+      ) [FormParsOption2]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList2(
+      ) [StatementList2]
+    ) [MethodDecl2]
+  ) [MethodDeclList1]
+) [Program]
+INFO  14:33:23,998 - ===================================
+INFO  14:33:24,012 - Deklarisana konstanta jedan na liniji 5
+INFO  14:33:24,013 - Deklarisana globalna promenljiva i na liniji 7
+INFO  14:33:24,013 - Deklarisana globalna promenljiva ibool na liniji 8
+INFO  14:33:24,013 - Deklarisana globalna promenljiva niz2 na liniji 10
+INFO  14:33:24,013 - Deklarisan globalni niz niz na liniji 12
+INFO  14:33:24,014 - Deklarisana globalna promenljiva a na liniji 13
+INFO  14:33:24,014 - NEMA
+INFO  14:33:24,016 -  Print count calls = 0
+INFO  14:33:24,016 -  Deklarisanih konstanti ima = 1
+INFO  14:33:24,017 -  Deklarisanih globalnih promenljivih ima = 4
+INFO  14:33:24,017 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  14:33:24,017 - ===================================
+INFO  14:33:24,019 - Parsiranje uspesno zavrseno!

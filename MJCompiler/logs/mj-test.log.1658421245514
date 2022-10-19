@@ -1,0 +1,76 @@
+INFO  17:06:35,671 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  17:06:35,852 - #2 program
+INFO  17:06:35,852 - #23 p
+INFO  17:06:35,853 - #48 {
+INFO  17:06:35,854 - #15 void
+INFO  17:06:35,856 - #23 f
+INFO  17:06:35,858 - #44 (
+INFO  17:06:35,858 - #23 int
+INFO  17:06:35,858 - #52 ...
+INFO  17:06:35,859 - #23 id
+INFO  17:06:35,860 - #45 )
+INFO  17:06:35,861 - #48 {
+INFO  17:06:35,863 - #14 return
+INFO  17:06:35,864 - #54 0
+INFO  17:06:35,867 - #51 ^
+INFO  17:06:35,868 - #56 true
+INFO  17:06:35,870 - #40 ;
+INFO  17:06:35,880 - #49 }
+INFO  17:06:35,881 - #49 }
+INFO  17:06:35,888 - Program(
+ p
+  DeclList5(
+  ) [DeclList5]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl3(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     f
+      VarArgs(
+        Type(
+         int
+        ) [Type]
+       id
+      ) [VarArgs]
+      VarDeclOption2(
+      ) [VarDeclOption2]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement7(
+            Expr(
+              MinusOption2(
+              ) [MinusOption2]
+              Term(
+                Factor(
+                  BaseExp3(
+                   0
+                  ) [BaseExp3]
+                  ExPopBaseExpList1(
+                    ExPopBaseExpList2(
+                    ) [ExPopBaseExpList2]
+                    ExPop(
+                    ) [ExPop]
+                    BaseExp5(
+                     true
+                    ) [BaseExp5]
+                  ) [ExPopBaseExpList1]
+                ) [Factor]
+                MulopFactorList2(
+                ) [MulopFactorList2]
+              ) [Term]
+              AddopTermList2(
+              ) [AddopTermList2]
+            ) [Expr]
+          ) [SingleStatement7]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl3]
+  ) [MethodDeclList1]
+) [Program]
+INFO  17:06:35,890 - ===================================
+INFO  17:06:35,903 -  Print count calls = 0
+INFO  17:06:35,903 -  Deklarisanih promenljivih ima = 0

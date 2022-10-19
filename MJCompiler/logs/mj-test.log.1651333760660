@@ -1,0 +1,283 @@
+INFO  17:49:04,646 - Compiling source file: C:\Users\David\Desktop\workspace pp1\MJCompiler\test\program.mj
+INFO  17:49:04,747 - #2 program
+INFO  17:49:04,748 - #23 MJProgram
+INFO  17:49:04,749 - #7 const
+INFO  17:49:04,752 - #23 int
+INFO  17:49:04,752 - #23 x
+INFO  17:49:04,754 - #37 =
+INFO  17:49:04,754 - #51 1
+INFO  17:49:04,755 - #42 ,
+INFO  17:49:04,756 - #23 y
+INFO  17:49:04,756 - #37 =
+INFO  17:49:04,756 - #52 'a'
+INFO  17:49:04,757 - #42 ,
+INFO  17:49:04,757 - #23 z
+INFO  17:49:04,757 - #37 =
+INFO  17:49:04,757 - #53 false
+INFO  17:49:04,758 - #40 ;
+INFO  17:49:04,758 - #23 int
+INFO  17:49:04,760 - #23 a
+INFO  17:49:04,760 - #42 ,
+INFO  17:49:04,764 - #23 b
+INFO  17:49:04,764 - #46 [
+INFO  17:49:04,764 - #47 ]
+INFO  17:49:04,765 - #42 ,
+INFO  17:49:04,766 - #23 c
+INFO  17:49:04,766 - #40 ;
+INFO  17:49:04,767 - #7 const
+INFO  17:49:04,770 - #23 int
+INFO  17:49:04,770 - #23 w
+INFO  17:49:04,770 - #37 =
+INFO  17:49:04,771 - #51 0
+INFO  17:49:04,771 - #40 ;
+INFO  17:49:04,771 - #23 int
+INFO  17:49:04,771 - #23 d
+INFO  17:49:04,771 - #40 ;
+INFO  17:49:04,772 - #21 record
+INFO  17:49:04,772 - #23 R
+INFO  17:49:04,772 - #48 {
+INFO  17:49:04,772 - #23 int
+INFO  17:49:04,772 - #23 a1
+INFO  17:49:04,773 - #42 ,
+INFO  17:49:04,773 - #23 b1
+INFO  17:49:04,773 - #46 [
+INFO  17:49:04,773 - #47 ]
+INFO  17:49:04,773 - #42 ,
+INFO  17:49:04,773 - #23 c1
+INFO  17:49:04,773 - #40 ;
+INFO  17:49:04,774 - #49 }
+INFO  17:49:04,774 - #48 {
+INFO  17:49:04,776 - #15 void
+INFO  17:49:04,778 - #23 metoda1
+INFO  17:49:04,780 - #44 (
+INFO  17:49:04,780 - #23 int
+INFO  17:49:04,780 - #23 a1
+INFO  17:49:04,780 - #42 ,
+INFO  17:49:04,782 - #23 double
+INFO  17:49:04,783 - #23 b
+INFO  17:49:04,783 - #46 [
+INFO  17:49:04,783 - #47 ]
+INFO  17:49:04,783 - #42 ,
+INFO  17:49:04,784 - #23 float
+INFO  17:49:04,784 - #23 c2
+INFO  17:49:04,784 - #45 )
+INFO  17:49:04,787 - #23 int
+INFO  17:49:04,787 - #23 a3
+INFO  17:49:04,787 - #42 ,
+INFO  17:49:04,787 - #23 b3
+INFO  17:49:04,787 - #46 [
+INFO  17:49:04,788 - #47 ]
+INFO  17:49:04,788 - #42 ,
+INFO  17:49:04,788 - #23 c3
+INFO  17:49:04,788 - #40 ;
+INFO  17:49:04,788 - #48 {
+INFO  17:49:04,788 - #23 dsg1
+INFO  17:49:04,790 - #46 [
+INFO  17:49:04,792 - #53 true
+INFO  17:49:04,795 - #26 *
+INFO  17:49:04,797 - #53 false
+INFO  17:49:04,800 - #47 ]
+INFO  17:49:04,805 - #40 ;
+INFO  17:49:04,809 - #49 }
+INFO  17:49:04,811 - #49 }
+INFO  17:49:04,822 - Program(
+ MJProgram
+  DeclList3(
+    DeclList2(
+      DeclList1(
+        DeclList2(
+          DeclList1(
+            DeclList4(
+            ) [DeclList4]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             x
+              ConstOption1(
+               1
+              ) [ConstOption1]
+              ConstDeclList1(
+                ConstDeclList1(
+                  ConstDeclList2(
+                  ) [ConstDeclList2]
+                 y
+                  ConstOption2(
+                   'a'
+                  ) [ConstOption2]
+                ) [ConstDeclList1]
+               z
+                ConstOption3(
+                 false
+                ) [ConstOption3]
+              ) [ConstDeclList1]
+            ) [ConstDecl]
+          ) [DeclList1]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           a
+            SqrdOption2(
+            ) [SqrdOption2]
+            VarDeclList1(
+              VarDeclList1(
+                VarDeclList2(
+                ) [VarDeclList2]
+               b
+                SqrdOption1(
+                ) [SqrdOption1]
+              ) [VarDeclList1]
+             c
+              SqrdOption2(
+              ) [SqrdOption2]
+            ) [VarDeclList1]
+          ) [VarDecl]
+        ) [DeclList2]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+         w
+          ConstOption1(
+           0
+          ) [ConstOption1]
+          ConstDeclList2(
+          ) [ConstDeclList2]
+        ) [ConstDecl]
+      ) [DeclList1]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       d
+        SqrdOption2(
+        ) [SqrdOption2]
+        VarDeclList2(
+        ) [VarDeclList2]
+      ) [VarDecl]
+    ) [DeclList2]
+    RecordDecl(
+     R
+      VarDeclOption1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         a1
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList1(
+              VarDeclList2(
+              ) [VarDeclList2]
+             b1
+              SqrdOption1(
+              ) [SqrdOption1]
+            ) [VarDeclList1]
+           c1
+            SqrdOption2(
+            ) [SqrdOption2]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+    ) [RecordDecl]
+  ) [DeclList3]
+  MethodDeclList1(
+    MethodDeclList2(
+    ) [MethodDeclList2]
+    MethodDecl(
+      TypeVoidOption2(
+      ) [TypeVoidOption2]
+     metoda1
+      FormParsOption1(
+        FormPars(
+          Type(
+           int
+          ) [Type]
+         a1
+          SqrdOption2(
+          ) [SqrdOption2]
+          TypeIdentList1(
+            TypeIdentList1(
+              TypeIdentList2(
+              ) [TypeIdentList2]
+              Type(
+               double
+              ) [Type]
+             b
+              SqrdOption1(
+              ) [SqrdOption1]
+            ) [TypeIdentList1]
+            Type(
+             float
+            ) [Type]
+           c2
+            SqrdOption2(
+            ) [SqrdOption2]
+          ) [TypeIdentList1]
+        ) [FormPars]
+      ) [FormParsOption1]
+      VarDeclOption1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         a3
+          SqrdOption2(
+          ) [SqrdOption2]
+          VarDeclList1(
+            VarDeclList1(
+              VarDeclList2(
+              ) [VarDeclList2]
+             b3
+              SqrdOption1(
+              ) [SqrdOption1]
+            ) [VarDeclList1]
+           c3
+            SqrdOption2(
+            ) [SqrdOption2]
+          ) [VarDeclList1]
+        ) [VarDecl]
+      ) [VarDeclOption1]
+      StatementList1(
+        StatementList2(
+        ) [StatementList2]
+        Statement2(
+          SingleStatement1(
+            DesignatorStatement(
+              Designator(
+               dsg1
+                DesignatorList2(
+                  DesignatorList3(
+                  ) [DesignatorList3]
+                  Expr(
+                    MinusOption2(
+                    ) [MinusOption2]
+                    Term(
+                      Factor5(
+                       true
+                      ) [Factor5]
+                      MulopFactorList1(
+                        MulopFactorList2(
+                        ) [MulopFactorList2]
+                        Mulop1(
+                        ) [Mulop1]
+                        Factor5(
+                         false
+                        ) [Factor5]
+                      ) [MulopFactorList1]
+                    ) [Term]
+                  ) [Expr]
+                ) [DesignatorList2]
+              ) [Designator]
+            ) [DesignatorStatement]
+          ) [SingleStatement1]
+        ) [Statement2]
+      ) [StatementList1]
+    ) [MethodDecl]
+  ) [MethodDeclList1]
+) [Program]
+INFO  17:49:04,823 - ===================================
+INFO  17:49:04,828 -  Print count calls = 0
+INFO  17:49:04,828 -  Deklarisanih promenljivih ima = 4

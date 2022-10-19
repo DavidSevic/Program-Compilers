@@ -1,0 +1,507 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, BREAK, CLASS, ENUM, ELSE, CONST, IF, DO, WHILE, NEW;
+terminal PRINT, READ, RETURN, VOID, EXTENDS, CONTINUE, THIS, SUPER;
+terminal GOTO, RECORD;
+
+terminal Integer NUMBER ;
+terminal String IDENT ;
+
+terminal PLUS, MINUS, MULTIPLY, DIVIDE, MODUO, EQ, NEQ, GRT, GRTEQ;
+terminal LESS, LESSEQU, AND, OR, EQUALS, PLUSINCR, MINUSDECR, SEMI;
+terminal TWODOTS, COMMA, DOT, LPAREN, RPAREN, LSQRD, RSQRD, LBRACE;
+terminal RBRACE, ERROR;
+
+terminal DOUBLE_QUESTION;
+
+nonterminal MethodDeclList, VarDecl;
+nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList; 
+nonterminal StatementList, Statement, Addop;
+nonterminal Unmatched, Matched;
+nonterminal ConstOption, DeclList;
+
+
+nonterminal ConstDecl, ConstDeclList;
+
+nonterminal ClassDecl, ExtendsOption;
+
+nonterminal RecordDecl;
+
+
+terminal Integer NUMCONST;
+terminal String CHARCONST;
+terminal String BOOLCONST;
+
+nonterminal MethodDecl, MethodTypeName; 
+nonterminal VarDeclList; 
+
+nonterminal SqrdOption;
+
+nonterminal ConstrMethodOption, ConstrDeclOption, VarDeclOption;
+
+nonterminal FormParsOption, FormParsList;
+
+nonterminal StatementOption, SingleStatement, LabelOption, Label;
+
+nonterminal DesignatorStatement, DesignatorStmtOption;
+
+nonterminal WithLabel;
+
+nonterminal MinusOption, ActPars, ActParsOption, ExprList;
+
+nonterminal MulopFactorList, Mulop;
+
+nonterminal AddopTermList;
+
+nonterminal DesignatorStmtOptions, Assignop;
+
+nonterminal Condition, CondTerm, CondFact, Relop, CondFactList, CondTermList;
+
+nonterminal ElseStmtOption;
+
+nonterminal Statements;
+
+nonterminal ConstrDecl;
+
+nonterminal IdentThis;
+
+// SEMANTICKA
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, TypeIdentMeth, VoidIdentMeth, RecordIdent, Designator; // dodat Designator iz Struct
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj DesignatorList;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Term, Factor;
+
+nonterminal GlobVarDecl, GlobVarDeclList, SqrdOptionVar, DesignatorIdent, LabelCheck, DOeasy, WHILEeasy, FormParsTest; 
+nonterminal LPARENpars, RPARENpars, RETURNhelp, SEMIhelp;
+
+nonterminal HelpArray, LSQRDhelp, DoubleQuestion, EndedHelp, LSQRDhelp1;
+
+precedence left ELSE;
+
+
+// moje
+
+//Program ::= (Program) PROG IDENT:progName DeclList LBRACE MethodDeclList RBRACE ; 
+
+Program ::= (Program) PROG ProgName:p DeclList LBRACE MethodDeclList RBRACE ; //TestSmena; 
+			
+			
+			// ovaj oporavak od greske ne treba, to ja testiram
+			// | (ErrorStmt1) error IDENT:l
+		   	//	{: parser.report_error("Lose napisana kljucna rec programa, izvrsen oporavak do naziva programa u liniji " + lleft, null);  :}
+			// ;
+
+ProgName ::= (ProgName) IDENT:progName ; // SEMANTICKA
+ 
+DeclList ::= (DeclList1) DeclList ConstDecl 
+			| (DeclList2) DeclList GlobVarDecl
+			| (DeclList3) DeclList RecordDecl
+			| (DeclList4) DeclList ClassDecl
+			| (DeclList5) /**/ 
+			;
+
+ConstDecl ::= (ConstDecl) CONST Type:varType IDENT:varName EQUALS ConstOption ConstDeclList SEMI ;
+
+ConstOption ::= (ConstOption1) NUMCONST:valueInt 
+				| (ConstOption2) CHARCONST:valueChar
+				| (ConstOption3) BOOLCONST:valueBool
+				;
+
+ConstDeclList ::= (ConstDeclList1) COMMA IDENT:varName EQUALS ConstOption ConstDeclList
+					| (ConstDeclList2) /**/
+					;
+										
+VarDecl ::= (VarDecl1) Type:varType IDENT:varName SqrdOptionVar VarDeclList SEMI 
+			 | (ErrorStmt1) error SEMI:l
+		   		{: parser.report_error("Greska pri deklaraciji promenljive na liniji " + lleft, null);  :}
+			 ;
+
+GlobVarDecl ::= (GlobVarDecl1) Type:varType IDENT:varName SqrdOptionVar GlobVarDeclList SEMI 
+			 | (ErrorStmt2) error SEMI:l
+		   		{: parser.report_error("Greska pri deklaraciji promenljive na liniji " + lleft, null);  :}
+			 ;
+ 
+SqrdOption ::= (SqrdOption1) LSQRD RSQRD 
+			   | (SqrdOption2) /**/
+			   ;
+			
+SqrdOptionVar ::= (SqrdOptionVar1) LSQRD RSQRD 
+			   | (SqrdOptionVar2) /**/
+			   ;
+
+VarDeclList ::= (VarDeclList1) COMMA IDENT:varName SqrdOptionVar VarDeclList // izmenio redosled
+				 | (ErrorStmt3) error COMMA:l
+		   			{: parser.report_error("Greska pri deklaraciji promenljive na liniji" + lleft, null);  :}
+				| (VarDeclList2) /**/
+				;
+				
+GlobVarDeclList ::= (GlobVarDeclList1) COMMA IDENT:varName SqrdOptionVar GlobVarDeclList // izmenio redosled  
+				| (GlobVarDeclList2) /**/
+				;
+				
+// odavde za klasu 
+
+ClassDecl ::= (ClassDecl) CLASS IDENT:varName ExtendsOption LBRACE VarDeclOption ConstrMethodOption RBRACE ;
+
+ExtendsOption ::= (ExtendsOption1) EXTENDS Type:varType
+				| (ExtendsOption2) /**/
+				;
+				
+//ConstrMethodOption ::= (ConstrMethodOption1) LBRACE ConstrDeclOption MethodDeclList RBRACE	// konflikt je jer oba mogu da budu Epsilon
+					//| (ConstrMethodOption2) /**/
+					//;
+				
+ConstrMethodOption ::= (ConstrMethodOption1) LBRACE RBRACE
+					| (ConstrMethodOption2) LBRACE ConstrDecl RBRACE
+					| (ConstrMethodOption3) LBRACE MethodDecl MethodDeclList RBRACE
+					| (ConstrMethodOption4) LBRACE ConstrDecl MethodDecl MethodDeclList RBRACE
+					| (ConstrMethodOption5) /**/
+					;
+
+ConstrDecl ::= (ConstrDecl) IDENT:varName LPAREN RPAREN VarDeclOption LBRACE StatementList RBRACE ; 			
+
+// dovde za klasu
+
+
+//staro
+//RecordDecl ::= (RecordDecl) RECORD IDENT:varName LBRACE VarDeclOption RBRACE ;
+
+//novo
+RecordDecl ::= (RecordDecl) RECORD RecordIdent LBRACE VarDeclOption RBRACE ;
+
+//novo
+RecordIdent ::= (RecordIdent) IDENT:varName ;
+
+
+VarDeclOption ::= (VarDeclOption1) VarDeclOption VarDecl // ovo mogu da sredim da bude lepse posle
+				| (VarDeclOption2) /**/
+				;
+
+MethodDeclList ::= (MethodDeclList1) MethodDeclList MethodDecl
+				| (MethodDeclList2) /**/
+				;
+
+//staro
+//MethodDecl ::= (MethodDecl) TypeVoidOption IDENT:varName LPAREN FormParsOption RPAREN VarDeclOption LBRACE StatementList RBRACE ;
+
+//novo
+MethodDecl ::= (MethodDecl1) TypeIdentMeth LPAREN FormParsOption RPAREN VarDeclOption LBRACE StatementList RBRACE 
+				| (MethodDecl2) VoidIdentMeth LPAREN FormParsOption RPAREN VarDeclOption LBRACE StatementList RBRACE
+				;
+
+// Novi MethodDecl (rok jul)
+
+/*
+
+// MethodDecl ::= (MethodDecl) TypeVoidOption IDENT:varName LPAREN FormParsOption VarArgsOption RPAREN VarDeclOption LBRACE StatementList RBRACE ;
+
+MethodDecl ::= (MethodDecl1) TypeVoidOption IDENT:varName LPAREN RPAREN VarDeclOption LBRACE StatementList RBRACE 
+				| (MethodDecl2) TypeVoidOption IDENT:varName LPAREN FormPars RPAREN VarDeclOption LBRACE StatementList RBRACE
+				| (MethodDecl3) TypeVoidOption IDENT:varName LPAREN VarArgs RPAREN VarDeclOption LBRACE StatementList RBRACE
+				
+				| (MethodDecl4) TypeVoidOption IDENT:varName LPAREN FormPars VarArgs RPAREN VarDeclOption LBRACE StatementList RBRACE
+				;
+
+VarArgs ::= (VarArgs) Type THREEDOTS IDENT ; // RADI SAMO KAD IZBACIM COMMA
+*/
+
+// Kraj novo
+
+/* vise ne treba, zbog semantike
+
+TypeVoidOption ::= (TypeVoidOption1) Type:varType
+				| (TypeVoidOption2) VOID
+				;
+				
+*/
+
+//novo
+TypeIdentMeth ::= (TypeIdentMeth) Type IDENT:methName ;
+
+//novo
+VoidIdentMeth ::= (VoidIdentMeth) VOID IDENT:methName ;
+				
+FormParsOption ::= (FormParsOption1) FormPars
+				| (FormParsOption2) /**/
+				;
+
+				
+FormPars ::= (FormPars) Type:varType IDENT:varName SqrdOption FormParsList ;
+
+FormParsList ::= (FormParsList1) FormParsList COMMA Type:varType IDENT:varName SqrdOption 
+				| (FormParsList2) 
+				;	
+
+/*
+FormPars ::= (FormPars) FormParsTest FormParsList ;
+
+FormParsList ::= (FormParsList1) COMMA Type:varType IDENT:varName SqrdOption FormParsList
+				| (FormParsList2) 
+				;
+			
+FormParsTest ::= (FormParsTest) ::= Type:varType IDENT:varName SqrdOption ;
+*/
+
+StatementOption ::= (StatementOption1) Statement
+				| (StatementOption2) /**/
+				;
+				
+StatementList ::= (StatementList1) StatementList Statement
+				| (StatementList2)  /**/
+				;
+
+Statement ::= (Statement1) WithLabel SingleStatement
+			| (Statement2) SingleStatement
+			| (Statement3) Statements
+			; 
+
+LabelOption ::= (LabelOption1) Label TWODOTS // mozda samo za A nivo // SAD NE KORISTIM
+			| (LabelOption2) /**/
+			; 
+			
+WithLabel ::= (WithLabel) Label TWODOTS ;
+			
+Label ::= (Label) IDENT:labelName ; // mozda samo za A nivo
+
+LabelCheck ::= (LabelCheck) IDENT:labelName ;
+
+SingleStatement ::= (SingleStatement1) DesignatorStatement SEMI 
+				| (SingleStatement2) IF LPAREN Condition RPAREN Statement ElseStmtOption // konflikt epsilona resen sa precedence left ELSE
+				| (SingleStatement3) DOeasy Statement WHILEeasy LPAREN Condition RPAREN SEMI
+				| (SingleStatement4) BREAK SEMI
+				| (SingleStatement5) CONTINUE SEMI
+				| (SingleStatement6) RETURN SEMI
+				| (SingleStatement7) RETURNhelp Expr SEMIhelp
+				| (SingleStatement8) READ LPAREN Designator RPAREN SEMI 
+				| (SingleStatement9) PRINT LPAREN Expr RPAREN SEMI
+				| (SingleStatement10) PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI 
+				| (SingleStatement11) GOTO LabelCheck SEMI
+				; 
+
+RETURNhelp ::= (RETURNhelp) RETURN ; // za povratni tip proveru array
+
+SEMIhelp ::= (SEMIhelp) SEMI ; // za povratni tip proveru array
+
+DOeasy ::= (DOeasy) DO ;
+
+WHILEeasy ::= (WHILEeasy) WHILE ;
+
+DesignatorStatement ::= (DesignatorStatement) Designator DesignatorStmtOptions ;
+
+//Designator ::= (Designator) IdentThis DesignatorList ;
+
+Designator ::= (Designator) DesignatorIdent DesignatorList ;
+					
+DesignatorList ::= (DesignatorList1) DesignatorList DOT IDENT:dsgIdent
+				| (DesignatorList2) DesignatorList LSQRDhelp Expr RSQRD
+				| (DesignatorList3) /**/
+				;
+				
+DesignatorIdent ::= (DesignatorIdent) IDENT:dsgIdent;
+				
+Expr ::= (Expr1) MinusOption Term AddopTermList 
+		 | (Expr2) Expr DoubleQuestion EndedHelp MinusOption Term AddopTermList																				
+		 ;
+
+DoubleQuestion ::= (DoubleQuestion) DOUBLE_QUESTION ;
+
+EndedHelp ::= (EndedHelp) /**/ ; // da proverimo da li smo skocili
+	
+MinusOption ::= (MinusOption1) MINUS
+			| (MinusOption2) /**/
+			;	
+
+Term ::= (Term) Factor MulopFactorList ;
+
+
+
+
+Factor ::= (Factor1) Designator
+		| (Factor2) Designator LPARENpars ActParsOption RPARENpars // dodajem ovo pars da bih izmedju njih drugacije citao array 
+		| (Factor3) NUMCONST:valueInt
+		| (Factor4) CHARCONST:valueChar
+		| (Factor5) BOOLCONST:valueBool
+		| (Factor6) NEW Type
+		| (Factor7) NEW Type LSQRDhelp1 Expr RSQRD
+		| (Factor8) LPAREN Expr RPAREN
+		;
+	
+
+LPARENpars ::= (LPARENpars) LPAREN ;
+
+RPARENpars ::= (RPARENpars) RPAREN ;
+
+LSQRDhelp ::= (LSQRDhelp) LSQRD ;
+
+LSQRDhelp1 ::= (LSQRDhelp1) LSQRD ;
+
+HelpArray ::= (HelpArray) /**/ ;
+
+// NOVO
+/*
+Factor ::= (Factor) BaseExp ExPopBaseExpList ;
+
+BaseExp ::= (BaseExp1) Designator
+		| (BaseExp2) Designator LPAREN ActParsOption RPAREN 
+		| (BaseExp3) NUMCONST
+		| (BaseExp4) CHARCONST
+		| (BaseExp5) BOOLCONST
+		| (BaseExp6) NEW Type
+		| (BaseExp7) NEW Type LSQRD Expr RSQRD
+		| (BaseExp8) LPAREN Expr RPAREN
+		; 
+
+ExPopBaseExpList ::= (ExPopBaseExpList1) ExPopBaseExpList ExPop BaseExp
+				| (ExPopBaseExpList2)
+				;
+				
+ExPop ::= (ExPop) EXP ;
+*/
+// KRAJ NOVOG
+		
+ActParsOption ::= (ActParsOption1) ActPars 
+				| (ActParsOption2) /**/
+				;
+
+ActPars ::= (ActPars) Expr ExprList ;
+
+ExprList ::= (ExprList1) ExprList COMMA Expr
+			| (ExprList2) /**/
+			;
+			
+MulopFactorList ::= (MulopFactorList1) MulopFactorList Mulop Factor
+				| (MulopFactorList2) /**/
+				;
+				
+Mulop ::= (Mulop1) MULTIPLY 
+		| (Mulop2) DIVIDE
+		| (Mulop3) MODUO
+		;
+		
+AddopTermList ::= (AddopTermList1) AddopTermList Addop Term
+				| (AddopTermList2) /**/
+				;
+				
+Addop ::= (Addop1) PLUS
+		| (Addop2) MINUS
+		;
+		
+DesignatorStmtOptions ::= (DesignatorStmtOptions1) Assignop Expr
+						| (DesignatorStmtOptions2) LPARENpars ActParsOption RPARENpars
+						| (DesignatorStmtOptions3) PLUSINCR
+						| (DesignatorStmtOptions4) MINUSDECR
+						| (ErrorStmt4) error SEMI:l
+							{: parser.report_error("Oporavak od greske u dodeli vrednosti do ; ", null); :}
+						;
+
+Assignop ::= (Assignop) EQUALS ;
+
+Condition ::= (Condition) CondTerm CondTermList;
+
+CondTerm ::= (CondTerm) CondFact CondFactList ;
+
+CondFact ::= (CondFact1) Expr 
+			| (CondFact2) Expr:exprLeft Relop Expr:exprRight
+			;
+			//| (CondFact3) Designator INSTANCEOF Type // NOVO - KONFLIKT ZBOG DESIGNATOR
+			//;
+			
+Relop ::= (Relop1) EQ
+		| (Relop2) NEQ
+		| (Relop3) GRT
+		| (Relop4) GRTEQ
+		| (Relop5) LESS
+		| (Relop6) LESSEQU
+		;
+		
+CondFactList ::= (CondFactList1) CondFactList AND CondFact
+			| (CondFactList2) /**/
+			;
+
+CondTermList ::= (CondTermList1) CondTermList OR CondTerm
+			| (CondTermList2) /**/
+			;			
+					
+ElseStmtOption ::= (ElseStmtOption1) ELSE Statement 
+				| (ElseStmtOption2) /**/
+				;
+
+Statements ::= (Statements) LBRACE StatementList RBRACE ;
+			
+IdentThis ::= (IdentThis1) IDENT:typeName // zbog this kod klasa, to je za C, izbaci ovo ako ne budes radio C
+		| (IdentThis2) THIS 
+		; 
+			
+// kraj moje
+
+Type ::= (Type) IDENT:typeName ;
+
+Matched ::= (Assignment) Designator:dest EQUALS Expr:e SEMI
+		   |
+		   (ErrorStmt) error SEMI:l
+		   {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :}
+		   |
+		   (PrintStmt) PRINT LPAREN Expr RPAREN SEMI
+		   |
+		   (ReturnExpr) RETURN Expr:t SEMI
+		   |
+		   (ReturnNoExpr) RETURN SEMI
+		   |
+		   (MatchedStatement) IF Expr Matched ELSE Matched
+		   ;
